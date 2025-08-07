@@ -30,3 +30,7 @@ from order_routes import order_router
 
 app.include_router(auth_router)
 app.include_router(order_router)
+
+@app.get("/")
+def read_root():
+    return {"message": "Olá, o servidor está funcionando!"}

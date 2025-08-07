@@ -1,16 +1,22 @@
 from sqlalchemy import create_engine, Column, String, Integer, Boolean, Float, ForeignKey
 from sqlalchemy.orm import declarative_base
 from sqlalchemy_utils.types import ChoiceType
+import os
 
+# Pega o diretório do arquivo atual (models.py) e adiciona o nome do banco de dados.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATABASE_URL = "sqlite:///" + os.path.join(BASE_DIR, "database.db")
+
+db = create_engine(DATABASE_URL)
 # cria a conexao com o seu banco de dados
-db = create_engine("sqlite:///database/banco.db")
+# db = create_engine("sqlite:///database/banco.db")
 
 # cria a base para os modelos do banco de dados (caso nao tenha um banco, cria um localmente)
 Base = declarative_base()
 
 # criar classes / tables do banco de dados
 
-class usuario(Base):
+class Usuario(Base):
     __tablename__ = "usuarios"
 
     id = Column("id", Integer, primary_key=True, autoincrement=True)
