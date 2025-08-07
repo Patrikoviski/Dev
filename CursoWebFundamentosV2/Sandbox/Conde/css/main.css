@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(to right, #091567, #10A1B4);
+    /* 10A1B4  091567*/
+    color: #ffffff;
+    font-family: "Roboto";
+    padding: 16px;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.main-info {
+    margin: 36px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.align {
+    margin-bottom: 56px;
+}
+
+.list {
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgb(182, 129, 243);
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+    color: black;
+    padding: 16px;
+}

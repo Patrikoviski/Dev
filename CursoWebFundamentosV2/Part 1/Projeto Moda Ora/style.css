@@ -1,0 +1,179 @@
+/* @font-face {
+    font-family: Roboto;
+    src: 
+    local(Roboto),
+    url(roboto/Roboto-Regular.ttf) format(truetype);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Federo&family=Italiana&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Viaoda+Libre&display=swap');
+
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+body {
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #ccc;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+a {
+    color: #425564;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b171f;
+    color: #6f8597;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .9rem;
+    color: #555;
+  }
+
+.viaoda-libre-regular {
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+.federo-regular {
+    font-family: "Federo", serif;
+    font-weight: 200;
+    font-style: normal;
+  }  
+
+.belleza-regular {
+    font-family: "Belleza", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.italiana-regular {
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 3em;
+  }
+
+.logo {
+    color: white;
+    font-size: 2rem;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #162028;
+}
+
+.hero-content__list {
+    display: flex;
+    gap: 36px;
+    text-transform: uppercase;
+}
+
+.hero-content li {
+    color: #425564;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.hero-content__img-topo {
+    background-image: url(imagens/topo.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.spacer {
+    margin-bottom: 130px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: normal;
+}
+
+img {
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+.content-section {
+    background-color: #003d52;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    width: 100vw;
+    height: 95vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.align-text {
+    padding: 0 23%;
+    color: #ffffff;
+}
+
+.content-section__article {
+    padding: 0 20%;
+    text-align: center;
+    max-height: 95vh;
+    overflow: auto;
+}
+
+#content-section__text {
+    padding: 0 25%;
+    text-align: center;
+}
+
+#content-section__text h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}

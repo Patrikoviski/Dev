@@ -1,0 +1,18 @@
+@media (width > 27em) {
+    h1 {
+        color: yellow;
+    }
+}
+
+@media (width <= 37.5em) {
+    h1 {
+        color: white;
+    }
+}
+
+@media (27em < width <= 37.5em) {
+    body {
+        background-color: #ccc;
+        background-image: none;
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: 600px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+.test {
+    margin-top: 1.6rem;
+    height: 8rem;
+    width: 32rem;
+    background-color: orange;
+}

@@ -1,0 +1,10 @@
+Background color
+
+    right color = #444856 .6
+    left color = #31333B .8
+
+Main text color 
+        #FF7833
+
+Links
+    https://picsum.photos/1000/400?random=1       

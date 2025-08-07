@@ -1,0 +1,82 @@
+body {
+    background-color: #ccc;
+}
+
+:popover-open {
+    width: 300px;
+    padding: 0 12px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+::backdrop {
+    background-color: rgba(0, 0, 0, .32);
+}
+
+.popover-container :popover-open {
+     inset: unset;
+} 
+
+/* .popover-container {
+    position: relative;
+    display: inline-block;
+} 
+
+#css:popover-open {
+    position: absolute;
+    top: 100%;  
+    left: 0;
+    margin-top: 5px; 
+    padding: 8px;
+    
+} */
+
+
+/* SUMMARY
+
+
+body {
+    background-color: #ccc;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+details[open] {
+    background-color: #a38b8b;
+} */
+
+/* Tables
+
+body {
+    background-color: #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+td  {
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+}
+
+
+th {
+    border: 1px solid black;
+    background-color: blueviolet;
+    padding: 16px;
+}
+
+.table-info tr {
+    color: white;
+    background-color: #3da3a3;
+    text-align: center;
+} */

@@ -1,0 +1,65 @@
+
+
+/* TRANSLATE */
+
+
+div {
+    outline: 1px solid #888;
+    width: 300px;
+    margin: .5em auto;
+}
+
+p {
+    width: 100%;
+}
+
+.highlight {
+    background-color: #ffff00;
+}
+
+.div .highlight{
+    transform: translate(50%);
+}
+
+.div2 .highlight{
+    position: relative;
+    left: 25%;
+}
+
+
+/* ROTATE */
+
+
+.div3 .highlight {
+    transform: Rotate(15deg);
+}
+
+
+/* SCALE */
+
+
+.div4 .highlight {
+    transform: scale(.5, .2);
+}
+
+
+/*  SKEW */
+
+
+.div5 .highlight {
+    transform: skew(15deg);
+}
+
+
+/* Multiple transform */
+
+
+.div6 .highlight {
+    transform: translate(100px) rotate(30deg);
+    transform: 0 100%;
+}
+
+.div7 .highlight {
+    transform: rotate(45deg) translate(100px);
+    transform-origin: left bottom;
+}

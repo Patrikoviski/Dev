@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #7B3D3E;
+    font-size: 1.6rem;
+    /* justify-items: center; */
+}
+
+.container {
+    background-color: aqua;
+    padding: 1.6rem;
+    margin-bottom: 3.6rem;
+}

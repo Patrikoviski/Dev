@@ -1,0 +1,61 @@
+body {
+    background-color: brown;
+
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Edu SA Hand';
+}
+
+h1 {
+    width: 80vw;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(168, 22, 22);
+
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 36px;
+    margin-bottom: 36px;
+
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+td + td {
+    text-align: right;
+}
+
+#taskList {
+    color: white;
+    list-style-type: none;
+}
+
+#taskList li{
+    margin-bottom: 16px;
+}

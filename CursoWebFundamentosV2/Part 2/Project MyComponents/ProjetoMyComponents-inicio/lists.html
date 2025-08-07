@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/normalize.css">
+    <title>Lists</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#">
+                <img src="imagens/perfil.png" alt="" class="img-profile">
+            </a>
+         <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="typografy.html">Typografy</a></li>
+            <li><a href="cards.html">Cards</a></li>
+            <li><a href="lists.html">Lists</a></li>
+            <li><a href="formulary.html">Formulary</a></li>
+            <li><a href="buttons.html">Buttons</a></li>
+            <li><a href="tables.html">Tables</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>My component</h1>
+
+        <article class="highlight">
+            <div class="border">
+                <h2>Lists</h2>
+                <p>Lists can be ordened, not ordened and nested.</p>
+            </div>
+        </article>
+
+        <section class="row_list">
+            <div class="row">
+                <div>
+                    <h2>Not Ordened</h2>
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Ordened</h2>
+                    <ol>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ol>
+                </div>
+                <div>
+                    <h2>Alternates</h2>
+                    <ul class="alternate">
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div>
+                    <h2>Not Ordened</h2>
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2
+                            <ul>
+                                <li>item 2.1</li>
+                                <li>item 2.2
+                                    <ul>
+                                        <li>item 2.2.1</li>
+                                        <li>item 2.2.2</li>
+                                        <li>item 2.2.3</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>item 2.3</li>    
+                            </ul>
+                        </li>    
+                        <li>item 3</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Ordened</h2>
+                    <ol start="6" type="A">
+                        <li>item 1</li>
+                        <li>item 2
+                            <ol type="I" reversed>
+                                <li>item 2.1</li>
+                                <li>item 2.2
+                                    <ol type="a" start="10">
+                                        <li>item 2.2.1</li>
+                                        <li>item 2.2.2</li>
+                                        <li>item 2.2.3</li>
+                                    </ol>
+                                </li>    
+                            </ol>
+                            <ol>
+                                <li>item 2.3</li>
+                            </ol>
+                        </li>
+                        <li>item 3</li>
+                    </ol>
+                </div>
+                <div>
+                    <h2>Alternate</h2>
+                    <ol type="I">
+                        <li>item 1</li>
+                        <li>item 2
+                            <ul>
+                                <li>item 2.1</li>
+                                <li>item 2.2
+                                    <ul class="emoji-list">
+                                        <li>item 2.2.1</li>
+                                        <li>item 2.2.2</li>
+                                        <li>item 2.2.3</li>
+                                    </ul>
+                                </li>    
+                            </ul>
+                        </li>    
+                        <li>item 3</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

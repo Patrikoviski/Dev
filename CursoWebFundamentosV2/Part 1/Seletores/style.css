@@ -1,0 +1,27 @@
+article {
+    outline: 4px solid green;
+}
+
+article a {
+    color: red;
+}
+
+article a > b {
+    color: green;
+}
+
+h1 + p {
+    background-color: yellow;
+}
+
+h1 ~ p {
+    border: 4px dashed orange;
+}
+
+.emphasis {
+    padding-left: 2rem;
+}
+
+article p:not(.emphasis) {
+    background-color: #aeadad;
+}

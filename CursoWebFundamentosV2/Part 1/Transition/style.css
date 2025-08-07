@@ -1,0 +1,26 @@
+body {
+    background-color: #ccc;
+}
+
+div {
+    --anima: cubic-bezier(.59, -0.3, .49, 1.36);
+
+    background-color: orange;
+    width: 15em;
+    height: 10em;
+    margin: 100px auto;
+    /* transition-property: width, height;
+    transition-duration: .5s, .1s;
+    transition-timing-function: cubic-bezier(.59, -0.3, .49, 1.36);
+    transition-delay: 0s, .9s; */
+
+    /* transition: property(all) duration(0s) function(ease) delay(0s) */
+
+    transition: width .5s var(--anima), height 1s var(--anima) .3s, background-color .5s var(--anima);
+}
+
+div:hover {
+    width: 30em;
+    height: 20em;
+    background-color: #ff0000;
+}

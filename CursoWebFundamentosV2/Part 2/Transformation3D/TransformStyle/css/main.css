@@ -1,0 +1,26 @@
+.scane {
+    margin: 5rem;
+    border: 2px solid #ccc;
+    width: 300px;
+    aspect-ratio: 1;
+}
+
+.plane {
+    background-color: rgb(0 0 0 / .3);
+    width: 200px;
+    aspect-ratio: 1;
+    margin-bottom: 16px;
+}
+
+.scane1a {
+    transform: rotateY(35deg);
+    transform-style: preserve-3d;
+}
+
+.scane1b {
+    transform: rotateX(55deg);
+}
+
+#scane1 {
+    perspective: 500px
+}

@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+section {
+    height: 100dvh;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+section:nth-child(odd) {
+    background-color: blueviolet;
+}
+
+section:nth-child(even) {
+    background-color: brown;
+}

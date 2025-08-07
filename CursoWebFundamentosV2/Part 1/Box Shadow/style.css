@@ -1,0 +1,10 @@
+div {
+    background-color: orange;
+    width: 15em;
+    height: 15em;
+    margin: 10em auto;
+
+    border-radius: 50px / 100px;
+
+    box-shadow: 20px 0 15px -5px black, 10px 20px 10px red;
+}

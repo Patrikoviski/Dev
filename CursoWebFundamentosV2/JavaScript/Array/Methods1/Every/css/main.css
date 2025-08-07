@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.img {
+    background-image: url(../images/pexels-fauxels-3184460.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.content {
+    padding: 36px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.content h1 {
+    font-size: 36px;
+}
+
+.content p {
+    font-size: 20px;
+}

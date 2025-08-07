@@ -1,0 +1,12 @@
+.container2 {
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.container2 p {
+    background-color: beige;
+    color: initial;
+    padding: 5px;
+}

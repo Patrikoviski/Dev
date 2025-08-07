@@ -1,0 +1,21 @@
+@import url(../../../../FontFamily/googleFonts.css);
+
+body {
+    background-color: brown;
+    color: white;
+}
+
+h1 {
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    font-size: 56px;
+}
+
+.ctn {
+    background-color: aqua;
+    padding: 16px;
+    width: fit-content;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,300 @@
+:root {
+    --primary-color: #01a7a7; 
+    --text-color: #faebd7;
+    --nav-color: #4A4A4A;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--text-color);
+    overflow-x: hidden;
+}
+
+section {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+section h2 {
+    margin: 0;
+}
+
+textarea {
+    padding: 16px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+textarea:disabled {
+    color: black;
+    background-color: #02dbdb;
+}
+
+.title a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.top-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 97%;
+    padding: 0 36px;
+
+    /* background-color: #F7B731; */
+    /* background-color: var(--nav-color); */
+    text-shadow: 1px 1px 5px black;
+}
+
+.top-nav-bar {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.top-nav-bar li {
+    right: 0;
+    list-style-type: none;
+}
+
+.top-nav-bar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.top-nav-bar a:hover {
+    text-decoration: underline;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.content-main {
+    color: var(--text-color);
+    text-shadow: -1px -1px 2px black;
+    text-align: center;
+
+    height: 100vh;
+    background-image: url(../images/pexels-fauxels-3184460.jpg);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-main h2 {
+    font-size: 56px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.align p, label {
+    font-size: 26px;
+}
+
+.align input {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.align input::placeholder {
+    color: var(--text-color);
+}
+
+.align-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.subtitle-cards {
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: -1px 2px 3px black;
+}
+
+.card-products {
+    display: flex;
+    flex-direction: column;
+
+    /* height: 100%; */
+    padding: 56px;
+}
+
+.cards {
+    gap: 16px;
+    margin-top: 36px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex: 1;
+    flex-basis: calc(33% - 16px);
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f8ddb9;
+
+    box-shadow: 1px 1px 5px black;
+}
+
+.card img{
+    border-radius: 4px 4px 0px 0px;
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 16px;
+}
+
+.content-about {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../images/pexels-fotios-photos-1207918.jpg);
+    background-size: cover;
+    background-position: right;
+
+    color: var(--text-color);
+    text-shadow: -1px -1px 10px rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-info h2, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: -1px 2px 3px black;
+}
+
+.content-info h2 {
+    font-size: 36px;
+}
+
+.content-info p {
+    font-size: 26px;
+}
+
+.contact {
+    vertical-align: middle;
+}
+
+.contact-main {
+    background-color: rgb(0 0 0 / .3);
+}
+.contact h2 {
+    font-size: 76px;
+    margin-bottom: 50px;
+    color: var(--text-color);
+    text-shadow: 1px 1px 4px black;
+}
+
+.contact img {
+    width: 25px;
+}
+
+.contact ul {
+    display: flex;
+    gap: 36px;
+}
+
+.contact li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact a, p {
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.contract {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    gap: 5px;
+}
+
+
+.input {
+    padding: 16px;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 1px 1px 5px black;
+    outline: none;
+}
+
+.input:disabled {
+    color: black;
+    background-color: #02dbdb;
+}
+
+#lb {
+    color: black;
+}
+
+#footer {
+    padding: 16px;
+    color: var(--text-color);
+    text-align: center;
+    background-color: var(--nav-color);
+}
+
+#footer p {
+    font-size: 16px;
+}
+
+#btn {
+    color: var(--text-color);
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+
+    padding: 6px 16px;
+}
+
+#btn:hover {
+    background-color: transparent;
+    text-shadow: 1px 1px 8px black;
+}
+
+#btn:disabled {
+    color: black;
+    background-color: #02dbdb;
+    text-shadow: none;
+    cursor: default;
+}

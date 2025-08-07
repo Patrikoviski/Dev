@@ -1,0 +1,19 @@
+body {
+    background-color: darkcyan;
+}
+
+h1 {
+    color: darkviolet;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    text-transform: inherit;
+    background-color: yellow;
+}
+
+a {
+    text-align: end;
+    color: blueviolet;
+}

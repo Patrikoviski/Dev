@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        
+        <fieldset>
+            <legend>Introduction</legend>
+
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" required autofocus placeholder="BOLINEA DE GORFE">
+
+            <label for="num">Exemple</label>
+            <input type="number" name="exemple" id="num" min="0" max="100">
+    
+            <label for="birth">Birthday</label>
+            <input type="date" name="birth" id="birth">
+
+            <div>
+                has extra activity?
+                <label>
+                    <input type="radio" name="activity" value="Y">Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="activity" value="N">No
+                </label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Interest Area</legend>
+
+            <div class="content">
+                <label for="py">Python</label>
+                <input type="checkbox" nameinterest" value="py" id="py">
+            </div>
+            <div class="content">
+                <label for="HTML">HTML</label>
+                <input type="checkbox" name="interest" value="HTML" id="HTML">
+            </div>
+            <div class="content">
+                <label for="CSS">CSS</label>
+                <input type="checkbox" name=interest" value="CSS" id="CSS">
+            </div>
+            <div class="content">
+                <label for="JS">Javascrip</label>
+                <input type="checkbox" nameinterest" value="JS" id="JS">
+            </div>
+            <div class="content">
+                <label for="Java">Java</label>
+                <input type="checkbox" name="interest" value="Java" id="Java">
+            </div>
+            <div class="content">
+                <label for="language">Language</label>
+                <select name="language" required multiple> <!--size="8"-->
+                    <option value="">Select</option>
+                    <optgroup label="frontend">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">Javascrip</option>
+                    </optgroup>
+                    <optgroup label="backend">
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                    </optgroup>
+                </select>
+
+                <input type="text" list="listLanguage">
+                <datalist id="listLanguage">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="Javascrip">
+                    <option value="Java">
+                    <option value="Python">
+                    <option value="PHP">
+                </datalist>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="contract--info">
+            <legend>message</legend>
+            <textarea name="msg" cols="30" rows="10" disabled>CONTRATO DE BOLINHA DE GOLF</textarea>
+            <div class="info">
+                <label for="contract">Accept contract</label>
+                <input type="checkbox" name="contract" id="contract">
+            </div>
+            <input type="file">
+        </fieldset>
+
+        <input type="hidden" value="bolinha de golf">
+
+        <input type="search">
+
+        <input type="range" min="0" max="10" step=".1">
+
+        <input type="time">
+
+        <input type="color">
+
+        <div class="actions">
+            <input type="submit" name="submit" class="button2">
+        </div>
+    </form>
+
+    <h1>Meter and Progress</h1>
+
+    <h2>Meter</h2>
+
+    <label for="gas">Gas nivel</label>
+    <meter id="gas" min="0" max="100" low="30" high="90" value="25" optimum="95"></meter>
+
+    <h2>Progress</h2>
+
+    <label>
+        Task percent
+        <progress max="100" value="70"> 70% </progress>
+    </label>
+
+    <form oninput="result.value = a.value * b.value">
+        <input type="number" name="a" id="a">
+        <input type="number" name="b" id="b">
+        <output name="result" for="a b"></output>
+    </form>
+</body>

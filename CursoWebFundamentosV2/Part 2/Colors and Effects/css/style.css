@@ -1,0 +1,215 @@
+:root {
+    --primary-color: #000;
+    --shadow-box: 0 1.5rem .6rem -7px;
+    --shadow-trasition: .3s;
+
+    /* shdadow-box option
+        0 1.5rem .6rem -7px 
+        -1.0rem 1.0rem 1.2rem*/
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(to left, rgb(255 0 0), rgb(79 79 245)) ,url(../imagens/tile.png);
+    background-attachment: fixed;
+    background-blend-mode: saturation;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    transition: .3s;
+}
+
+body:hover {
+    padding: 1.6rem;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    padding: 3.6rem;
+    text-shadow: 2px 1px 3px rgb(0, 60, 255);
+}
+
+.colors {
+    width: 80%;
+    border: 8px ridge color-mix(in srgb, var(--primary-color) , transparent 40%);
+    margin: 20px auto;
+    padding: 2.6rem;
+    transition: var(--shadow-trasition);
+}
+
+.colors:hover:not(:first-child) {
+    padding: 3.6rem;
+}
+
+.colors p {
+    margin: 0;
+}
+
+section {
+    counter-reset: counter;
+}
+
+.colors {
+    counter-increment: counter;
+}
+
+.colors::before {
+    content: "[ " counter(counter) " ]";
+    display: inline-block;
+    margin-bottom: 1.6rem;
+    font-weight: bold;
+}
+
+.colors:nth-of-type(2) {
+    background-color: red;
+    background-clip: content-box;
+    transition: var(--shadow-trasition);
+}
+
+.colors:nth-of-type(2):hover {
+    background-color: hsl(0, 100%, 40%);
+    box-shadow: var(--shadow-box) hsl(0, 100%, 20%);
+}
+
+.colors:nth-of-type(3) {
+    background-color: hsl(100deg 100% 80% / .6);
+    transition: var(--shadow-trasition);
+}
+
+.colors:nth-of-type(3):hover {
+    background-color: hsl(100deg 100% 50% / .6);
+    box-shadow: var(--shadow-box) hsl(100deg, 100%, 20%);
+}
+
+.colors:nth-of-type(4) {
+    background-image: linear-gradient(70deg, blue, transparent), linear-gradient(to top, red, transparent);
+    background-clip: padding-box;
+    /* background-color: hsl(214, 100%, 80%, 0.4); */
+    transition: var(--shadow-trasition);
+}
+
+.colors:nth-of-type(4):hover {
+    background-color: hsla(214, 100%, 50%, 0.6);
+    box-shadow: var(--shadow-box) hsl(214, 100%, 50%, 0.6);
+}
+
+.colors:nth-of-type(5) {
+    background-image: radial-gradient(blue 30%, #f008, green 50%, yellow);
+}
+
+.colors:nth-of-type(6) {
+    background-image: radial-gradient(circle, blue 30%, #f008, green 50%, yellow);
+}
+
+.colors:nth-of-type(7) {
+    background-image: radial-gradient(circle, blue, #f008, green 50%, yellow);
+}
+
+.colors:nth-of-type(8) {
+    background-image: radial-gradient(circle at 5.0rem 2.0rem, blue, #f008 20%);
+}
+
+.colors:nth-of-type(8):hover {
+    background-image: radial-gradient(circle at 90% 50%, blue, #f008 20%);
+}
+
+.colors:nth-of-type(9) {
+    background-image: radial-gradient(ellipse at 5.0rem 2.0rem, blue, #f008 20%);
+}
+
+.colors:nth-of-type(10) {
+    background-image: radial-gradient(closest-corner at 5.0rem 2.0rem, blue, #f008);
+}
+
+.colors:nth-of-type(11) {
+    background-image: radial-gradient(farthest-corner at 5.0rem 2.0rem, blue, #f008);
+}
+
+.colors:nth-of-type(12) {
+    background-image: radial-gradient(closest-side at 5.0rem 2.0rem, blue, #f008);
+}
+
+.colors:nth-of-type(13) {
+    background-image: radial-gradient(farthest-side at 5.0rem 2.0rem, blue, #f008);
+}
+
+.colors:nth-of-type(14) {
+    background-image: radial-gradient(circle farthest-side at 5.0rem 2.0rem, blue, #f008);
+}
+
+.colors:nth-of-type(15) {
+    background-image: radial-gradient(circle farthest-side at 5.0rem 2.0rem, #00F8, #f008), radial-gradient(circle farthest-corner at top right, yellow, transparent);
+}
+
+.colors:nth-of-type(16) {
+    background-image: radial-gradient( at top, #00F8, #f008), radial-gradient( at bottom, yellow, transparent);
+}
+
+.colors:nth-of-type(17) {
+    background-image: conic-gradient(from 45deg ,red, blue, green, red);
+}
+
+.colors:nth-of-type(18) {
+    background-image: conic-gradient(#f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+    filter: blur(2px);
+    transition: var(--shadow-trasition);
+}
+
+.colors:nth-of-type(18):hover {
+    filter: none;
+}
+
+.colors:nth-of-type(19) {
+    background-image: conic-gradient(#f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+    transition: filter 5s linear;
+    aspect-ratio: 1;
+}
+
+.colors:nth-of-type(19):hover {
+    filter: hue-rotate(2turn);
+}
+
+.colors:nth-of-type(20) {
+    background-image: repeating-linear-gradient(to top right, white 0px, white 5px, black 1.8rem, rgb(0, 0, 0) 2.5rem);
+}
+
+.colors:nth-of-type(21) {
+    background-image: repeating-radial-gradient(white 0px, white 10px, black 10px, #000000 20px);
+}
+
+.colors:nth-of-type(22) {
+    background-image: repeating-conic-gradient(white 0deg, white 10deg, black 10deg, #000000 20deg);
+}
+
+.colors:nth-of-type(23) {
+    background-image: repeating-conic-gradient(transparent 0deg, transparent 10deg, black 10deg, #000000 20deg),
+    repeating-radial-gradient(red 0%, transparent, blue 20%);
+    background-attachment: fixed, scroll;
+}
+
+.colors:nth-of-type(24) {
+    background-image: repeating-radial-gradient(red 0%, transparent, blue 20%),
+    repeating-linear-gradient(red, blue);
+    background-attachment: scroll, fixed;
+}
+
+.colors:nth-of-type(25) {
+    box-shadow: 10px 10px 6px rgb(0 0 0 / .8);
+}
+
+.colors:nth-of-type(26) {
+    filter: drop-shadow(10px 10px 6px rgb(0 0 0 / .8));
+}
+
+.colors:nth-of-type(27) {
+    background-image: linear-gradient(to top right, transparent 50%, red 50%);
+    box-shadow: 10px 10px 6px rgb(0 0 0 / .8);
+}
+
+.colors:nth-of-type(28) {
+    background-image: linear-gradient(to top right, transparent 50%, red 50%);
+    filter: drop-shadow(10px 10px 6px rgb(0 0 0 / .8));
+}

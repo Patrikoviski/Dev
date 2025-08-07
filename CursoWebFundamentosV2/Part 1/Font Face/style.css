@@ -1,0 +1,11 @@
+@font-face {
+    font-family: nadia;
+    src: 
+        local("Nadia Serif"),
+        local("Nadia-Serif"),
+        url(fonts/nadia/nadia-serif.ttf) format("truetype");
+}
+
+h1 {
+    font-family: nadia;
+}

@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+    height: 100vh;
+
+    background-color: brown;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container {
+    display: flex;
+    gap: 200px;
+    padding: 36px;
+
+    background-color: rgb(1, 182, 182);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.container h3, li {
+    text-shadow: 1px 1px 5px black;
+}
+
+.container h3 {
+    font-size: 56px;
+}
+
+.container li {
+    font-size: 26px;
+}
+
+.original {
+    background-color: beige;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.original ul {
+    background-color: aqua;
+}
+
+.alvo {
+    background-color: beige;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 5px;
+    padding: 36px;
+}
+
+.alvo ul {
+    border-radius: 5px;
+    background-color: rgb(54, 252, 252);
+    box-shadow: 1px 1px 5px black;
+}
+
+.alvo li {
+    padding: 6px;
+}

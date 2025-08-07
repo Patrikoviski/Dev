@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Listas/Tables/Summary/Popover</title>
+</head>
+
+<body>
+
+    <h1>Curso web design - popover</h1>
+
+    <button popovertarget="popover">Toggle popover</button>
+    <div id="popover" popover>Este texto é aberto ao clicar no botão</div>
+
+    <hr>
+
+    <button popovertarget="popover-auto">popover auto (default)</button>
+    <div id="popover-auto" popover="auto">Este texto é aberto ao clicar no botão</div>
+
+    <hr>
+
+
+    <button popovertarget="popover-manual">popover manual</button>
+    <div id="popover-manual" popover="manual">Este texto é aberto ao clicar no botão</div>
+
+    <hr>
+
+    <button popovertarget="popover-manual__close" popovertargetaction="show">popover manual (OPEN)</button>
+    <button popovertarget="popover-manual__close" popovertargetaction="hide">popover manual (CLOSE)</button>
+    <div id="popover-manual__close" popover="manual">Este texto é aberto ao clicar no botão</div>
+
+    <hr>
+
+    <div class="popover-container">
+        <button popovertarget="css">popover with CSS</button>
+        <div id="css" popover>popover with CSS</div>
+    </div>
+
+</body>
+</html>
+
+    <!--
+    
+    SUMMARY
+
+    <h1>Curso web design</h1>
+    <details>
+        <summary>Pre-requisitos</summary>
+        <p>Para fazer esse curso e necessario conhecimento de Sistema operacional</p>
+    </details>
+
+    <details>
+        <summary>Carga horaria</summary>
+        <p>180 horas</p>
+    </details> -->
+
+
+    <!-- 
+
+    LISTAS
+    
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2 
+            <ul>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcacao de hipertexto</dd>
+        <dd>Usada para criar paginas na web</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem para criacao de folhas de estilo em cascata</dd>
+
+        <dt>internet</dt>
+        <dt>www</dt>
+        <dd>Rede mundial de computadores</dd>
+    </dl> -->
+    
+    <!-- 
+    
+    TABLES
+    
+    <div class="table-info">
+        <table>
+            <caption>Tabela de precos de cursos</caption>
+            <thead>
+                <tr>
+                    <th>Area</th>
+                    <th>Curso</th> 
+                    <th>Investimento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Design</td> 
+                    <td>InDesign</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Photoshop</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Illustrator</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="4">Development</td>
+                    <td>HTML</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td
+                     colspan="3">Valores sujeitos a alteracoes sem previo aviso</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div> -->
+
+    <!-- <div class="table">
+        <table>
+            <tr>
+                <td>1A</td> 
+                <td colspan="3">1B</td>
+            </tr>
+            <tr>
+                <td>2A</td>
+            </tr>
+            <tr>
+                <td>3A</td>
+            </tr>
+        </table>
+    </div>
+     -->

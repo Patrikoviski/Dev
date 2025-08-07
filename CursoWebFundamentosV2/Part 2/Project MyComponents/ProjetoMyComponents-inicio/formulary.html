@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/normalize.css">
+    <title>Formulary</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#">
+                <img src="imagens/perfil.png" alt="" class="img-profile">
+            </a>
+         <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="typografy.html">Typografy</a></li>
+            <li><a href="cards.html">Cards</a></li>
+            <li><a href="lists.html">Lists</a></li>
+            <li><a href="formulary.html">Formulary</a></li>
+            <li><a href="buttons.html">Buttons</a></li>
+            <li><a href="tables.html">Tables</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>My component</h1>
+
+        <section>
+            <h2>Contact Info</h2>
+            <div class="row">
+                <form action="#" method="get">
+                    <div class="row">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Full Name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </div>
+                    <label for="msg">Type your message</label>
+                    <textarea name="msg" id="msg" rows="6"></textarea>
+
+                    <input type="submit" value="submit" class="button">
+                </form>
+                
+                <address class="info-address">
+                    <p><b>Address</b>  1234 Somewhere Rd. Nashville, TN 00000 United States</p>
+                    <p><b>Phone Number</b>  000-000-000</p>
+                    <p><b>Email</b> email@server.com</p>
+                </address>
+            </div>    
+        </section>
+
+        <section>
+
+                <form action="#" method="get" class="form-quiz">
+                    <label for="tec">What's your favorite language?</label>
+                    <select name="tec" id="tec" >
+                        <option value="null">Select</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Javaspcript">Javaspcript</option>
+                    </select>
+
+                    <label>Low Priority <input type="radio" name="Priority" value="low"></label>
+                    <label>Mediu Priority <input type="radio" name="Priority" value="Medium"></label>
+                    <label>High Priority <input type="radio" name="Priority" value="High"></label>
+
+                    <label><input type="checkbox" name="copy" value="True"> Submit Copy</label>
+                    <label><input type="checkbox" name="human" value="True"> I'm a human</label>
+
+                    <div class="row">
+                        <input type="reset" value="Clean">
+                        <input type="submit" value="submit" class="button button-stroke">
+                    </div>
+                </form>
+            
+        </section>
+    </main>
+</body>
+</html>

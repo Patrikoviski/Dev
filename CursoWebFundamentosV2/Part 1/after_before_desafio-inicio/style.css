@@ -1,0 +1,30 @@
+body {
+    background-color: #ccc;
+}
+
+a[target="_blank"]::after {
+    content: url(imagens/newWindow-icon.png);
+    margin-left: 6px;
+}
+
+a[href$=".pdf"]::before {
+    content: url(imagens/pdf-icon.gif);
+    margin-right: 6px;
+}
+
+input[type="checkbox"]:not(:disabled) + label {
+    color: #ff0000;
+}
+
+input[type="checkbox"]:checked + label {
+    color: #008000;
+}
+
+
+input[type="checkbox"]:disabled + label {
+    color: #0000ff;
+}
+
+li li:nth-child(3) {
+    background-color: #ffff00;
+}

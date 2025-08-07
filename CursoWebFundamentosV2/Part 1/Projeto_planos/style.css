@@ -1,0 +1,116 @@
+body {
+    background-color: #0C1013;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    border: 1px solid black;
+    background-color: #040608;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.header__nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.header__nav a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+.header__nav a:hover {
+    text-decoration: underline;
+}
+
+a.header__nav--active {
+    background-color: #CBE30B;
+    color: #0c1014;
+    pointer-events: none;
+}
+
+.main-title {
+    margin: 50px 0;
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pricing {
+    gap: 16px;
+    display: flex;
+}
+
+.pricing-plan {
+    flex: 1;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0px 7px #CBE30B;
+    background-color: #20262B;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan__title {
+    text-transform: uppercase;
+    border-bottom: 2px solid #CBE30B;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.pricing-plan p {
+    margin-top: 0;
+}
+
+.pricing-plan__price {
+    font-size: 33px;
+}
+
+.pricing-plan__features {
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding: 16px;
+    line-height: 1.8;
+    flex: 1;
+}
+
+.pricing-plan__features li::marker {
+    color: #CBE30B;
+}
+
+.pricing__link {
+    border: 1px solid #CBE30B;
+    border-radius: 5px;
+    background-color: #CBE30B;
+    color: black;
+    padding: 16px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pricing__link:hover {
+    color: white;
+    outline: 2px solid #CBE30B;
+    background-color: transparent;
+}

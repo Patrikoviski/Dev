@@ -1,0 +1,81 @@
+body {
+    background-color: #CCCCCC;
+    width: 80%;
+    margin: auto;
+
+    background-image:  url(../ProjetoCSS-inicio/imagens/bg-4.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 1905px 600px;
+}
+
+h1 {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 100px;
+}
+
+h2 {
+    background-color: #EDEDED;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.button {
+    text-align: right;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: #80807C;
+    color: #EFE4E4;
+    padding: 16px;
+    border: 2px solid #0051ad;
+}
+
+.button li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.box a {
+    background-color: #CEC7C6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box-p {
+    background-color: rgba(0, 0, 0, 0.412);
+    border-bottom: 2px solid white;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+}
+
+#margin-bottom {
+    margin-bottom: 50px;
+}
+
+#sub {
+    margin-top: 190px;
+}
+
+#id {
+    color: #EFE4E4;
+    text-align: center;
+    margin-top: 200px;
+}

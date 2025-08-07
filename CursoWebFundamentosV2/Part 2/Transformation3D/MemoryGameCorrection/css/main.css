@@ -1,0 +1,113 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(#3f5efb, #aa46fb);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+}
+
+main {
+    background-color: white;
+    width: 620px;
+    padding: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 20px -10px rgb(0 0 0 / .6);
+}
+
+main:has(#check1:checked) .game .card1 {
+    transform: rotateY(180deg);
+}
+main:has(#check2:checked) .game .card2 {
+    transform: rotateY(180deg);
+}
+main:has(#check3:checked) .game .card3 {
+    transform: rotateY(180deg);
+}
+main:has(#check4:checked) .game .card4 {
+    transform: rotateY(180deg);
+}
+main:has(#check5:checked) .game .card5 {
+    transform: rotateY(180deg);
+}
+main:has(#check6:checked) .game .card6 {
+    transform: rotateY(180deg);
+}
+main:has(#check7:checked) .game .card7 {
+    transform: rotateY(180deg);
+}
+main:has(#check8:checked) .game .card8 {
+    transform: rotateY(180deg);
+}
+main:has(#check9:checked) .game .card9 {
+    transform: rotateY(180deg);
+}
+main:has(#check10:checked) .game .card10 {
+    transform: rotateY(180deg);
+}
+main:has(#check11:checked) .game .card11 {
+    transform: rotateY(180deg);
+}
+main:has(#check12:checked) .game .card12{
+    transform: rotateY(180deg);
+}
+main:has(#check13:checked) .game .card13 {
+    transform: rotateY(180deg);
+}
+main:has(#check14:checked) .game .card14 {
+    transform: rotateY(180deg);
+}
+main:has(#check15:checked) .game .card15 {
+    transform: rotateY(180deg);
+}
+main:has(#check16:checked) .game .card16 {
+    transform: rotateY(180deg);
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 90px);
+    gap: 1rem;
+    perspective: 500px;
+}
+
+.card{
+    position: relative;
+    border: 2px solid red;
+    border-radius: 6px;
+    box-shadow: 0 5px 7px -5px rgb(0 0 0 / .5);
+    transform-style: preserve-3d;
+    transition: transform .3s;
+}
+
+.card img {
+    position: absolute;
+    object-fit: cover;
+    overflow: hidden;
+
+    border-radius: 4px;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    transform: rotateY(180deg);
+}
+
+.hide {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}

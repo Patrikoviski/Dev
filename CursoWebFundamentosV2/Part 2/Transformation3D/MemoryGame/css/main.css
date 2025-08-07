@@ -1,0 +1,66 @@
+body {
+    margin: auto;
+
+    justify-items: center;
+    background-color: #7C51F4;
+}
+
+.container {
+    background-color: white;
+
+    width: 80vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 36px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.card {
+    /* display: inline-block; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform-origin: right center;
+    transition: transform 1s;
+    
+}
+
+.cards:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.cards:nth-child(2) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.card_face-front img {
+    width: 250px;
+    height: 130px;
+}
+
+.card_face-back img {
+    /* background-image: url(../images/back.png); */
+    width: 250px;
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+#check2:has(:checked) .card{
+    transform: rotateY(180deg);
+}

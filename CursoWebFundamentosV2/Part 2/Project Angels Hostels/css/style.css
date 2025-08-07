@@ -1,0 +1,224 @@
+:root {
+    --primary-color: #612674;
+    --secundary-color: #f6f6f6;
+    --default-gap: 1rem;
+    --default-padding: 3.6rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+}
+
+h1, h2 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.oxygen-regular {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.maxWidth {
+    max-width: 70.25em;
+    margin: auto;
+}
+
+.top_header  {
+    text-align: center;
+    /* background-color: white;
+    position: sticky;
+    top: 0; */
+}
+
+.top_header_nav {
+    background-color: var(--primary-color);
+}
+
+.top_header_nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.top_header_nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.top_header_nav a:hover {
+    background-color: color-mix(in srgb,  var(--primary-color), white 10%);
+}
+
+.heroBanner {
+    text-align: center;
+    padding: 1.6rem;
+    background-color: var(--secundary-color);
+}
+
+.heroBanner_iconPlay {
+    height: 8.0rem;
+    width: 8.0rem;
+    display: none;
+}
+
+.heroBanner_iconPlay img {
+    width: 100%;
+}
+
+.heroBanner_title {
+    color: var(--primary-color);
+    font-size: 2.4rem;
+}
+
+.heroBanner_subtitle {
+    font-size: 1.6rem;
+    padding-bottom: 1.6rem;
+    color: color-mix(in srgb, var(--primary-color), white);
+}
+
+.heroBanner_btn {
+    background-color: #59C4C3;
+    color: white;
+    padding: 1rem 1.6rem;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+.heroContent {
+    padding: .6rem;
+    background-color: var(--secundary-color);
+}
+
+.heroContent_container {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.heroContent_title {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.heroContent_container svg {
+    fill: var(--primary-color);
+    width: 5.0rem;
+    height: 5.0rem;
+}
+
+.middleContent {
+    background-color: var(--secundary-color);
+    text-align: center;
+    padding: var(--default-padding);
+}
+
+.middleContent a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.middleContent_title {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 2.0rem;
+}
+
+.middleContent span[class^="icon-"] {
+    color: var(--primary-color);
+    font-size: 5.6rem;
+}
+
+.middleContent p {
+    line-height: 1.5;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--default-gap);
+}
+
+.col {
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+.col-sm-12 {
+    width: 100%;
+}
+
+.mainContent {
+    padding: var(--default-padding);
+}
+
+.mainContent p {
+    line-height: 1.2;
+}
+
+.mainContent_title {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: .32rem;
+    font-size: 2rem;
+}
+
+.mainContent_img img {
+    width: 100%;
+}
+
+.mainContent .row {
+    row-gap: 6.4rem;
+}
+
+.mainContent_article {
+    container: main-content / inline-size
+}
+
+.footer {
+    text-align: center;
+    background-color: #26303D;
+    color: #8296A8;
+    padding: 3rem;
+}
+
+/* .mainContent {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.mainContent_title {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+}
+
+.mainContent img {
+    width: 75%;
+}
+
+.test {
+    padding-top: 3rem;
+} */

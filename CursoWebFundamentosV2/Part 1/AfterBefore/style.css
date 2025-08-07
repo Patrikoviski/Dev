@@ -1,0 +1,37 @@
+body {
+    background-color: #ccc;
+}
+
+p::before {
+    content: " BEFORE ";
+}
+
+p::after {
+    content: " AFTER ";
+}
+
+div {
+    border: 4px solid red;
+    position: relative;
+}
+
+p {
+    margin: 0;
+}
+
+div::after {
+    content: "";
+    width: 1em;
+    height: 1em;
+    background-color: red;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div::before {
+    content: url(https://imageplaceholder.net/60x60);
+    float: left;
+    margin-right: 1em;
+}

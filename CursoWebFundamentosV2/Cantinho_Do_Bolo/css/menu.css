@@ -1,0 +1,39 @@
+.header {
+    background-color: transparent;
+}
+
+.bolo-card {
+    height: auto;
+    background-color: white;
+}
+
+.bolo-section {
+    padding-bottom: 500px;
+}
+
+.btn-encomendar:hover {
+    background-color: #fc7b75;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#bolo-tipos {
+    padding: 10px;
+    font-size: 1.6em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#bolo-tipos:focus {
+    outline: none;
+    border-color: #FF9F9A;
+}

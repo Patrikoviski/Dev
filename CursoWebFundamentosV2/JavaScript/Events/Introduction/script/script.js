@@ -1,0 +1,40 @@
+let btn1 = document.getElementById("btn1")
+let btn2 = document.getElementById("btn2")
+let btn3 = document.getElementById("btn3")
+
+// Event Handler DOM Level 0 
+
+function clicked() {
+    console.log("click function clicked")
+}
+
+btn1.onclick = function() {
+    console.log("click btn1 function anonimy")
+}
+
+btn1.onclick = clicked
+
+// Event Handler DOM Level 2
+
+btn2.addEventListener("click", clicked)
+btn2.addEventListener("click", function(){
+    console.log("click anonimy function")
+})
+
+
+document.addEventListener("click", function(){
+    console.log("document clicked")
+}, true)
+
+btn3.addEventListener("click", function(e){
+    e.stopPropagation()
+    console.log("btn3 clicked")
+})
+
+
+
+
+let container = document.getElementById("container")
+container.addEventListener("click", function(){
+    console.log("container clicked")
+})

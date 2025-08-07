@@ -1,0 +1,46 @@
+span {
+    width: 32%;
+    text-align: center;
+
+    color: #F7B731;
+    text-shadow: 1px 1px 2px black;
+    font-size: 36px;
+}
+
+.back-home {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #F7B731;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    text-decoration: none;
+    color: #F7B731;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.back-home:hover {
+    color: #F7B731;
+    text-decoration: underline;
+}

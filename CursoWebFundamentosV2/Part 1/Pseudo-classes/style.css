@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    background-color: #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+p:empty::before {
+    content: "empty paragraph??";
+}
+
+a:focus, a:hover {
+    background-color: #ffff00;
+}

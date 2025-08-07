@@ -1,0 +1,311 @@
+:root {
+    --border-nav-color: white;
+}
+
+/*  Tabela de tamanhos de tela
+
+    Extra small <576px - 36em
+    Small ≥576px - 36em
+    Medium ≥768px - 48em
+    Large ≥992px - 62em
+    Extra large ≥1200px - 75em
+*/
+
+/* Extra small devices (less than 36em) */
+
+@media (max-width: 36em) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        background: rgba(0 0 0 / 0.9);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-20px);
+    }
+
+    .nav-menu.active {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0);
+    }
+
+    .nav-menu a {
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFE2CA;
+        padding: 50px;
+        font-size: 2.0em;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header {
+        position: absolute;
+    }
+}
+
+/* Small devices (between 36em and 48em) */
+
+@media (min-width: 36em) and (max-width: 48em) {
+    .hamburger {
+        display: flex;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        background: rgba(0 0 0 / 0.9);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-20px);
+    }
+
+    .nav-menu.active {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0);
+    }
+
+    .nav-menu a {
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFE2CA;
+        padding: 50px;
+        font-size: 2.0em;
+    }
+
+    .main-section {
+        background-size: cover;
+    }
+
+    .bolo-card {
+        padding-bottom: 16px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 16px;
+    }
+
+    .bolo-img {
+        width: 400px;
+        max-height: auto;
+        border-radius: 5px 5px 0 0;
+        box-shadow: 1px 1px 5px black;
+    }
+}
+
+/* Medium devices (between 48em and 62em) */
+
+@media (min-width: 48em) and (max-width: 62em) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .header {
+        right: 0;
+    }
+
+    .nav-header {
+        padding: 0;
+    }
+
+    .nav-menu {
+        gap: 0;
+    }
+
+    .nav-menu a{
+        display: block;
+        text-decoration: none;
+        font-size: 2.0em;
+        padding: 20px;
+    }
+
+    .nav-menu a:hover {
+        border-bottom: 2px solid #F7B731;
+        padding-bottom: 5px;
+    }
+
+    .main-section {
+        background-image: url('../images/cantinhodoboloMobile.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bolo-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 0 auto;
+        gap: 20px;
+        padding: 36px;
+    }
+
+    .bolo-header {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .menu-completo {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .bolo-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bolo-img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Large devices (between 62em and 75em) */
+
+@media (min-width: 62em) and (max-width: 75em) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .nav-menu a{
+        display: block;
+        text-decoration: none;
+        font-size: 2.0em;
+    }
+
+    .nav-menu a:hover {
+        border-bottom: 2px solid var(--border-nav-color);
+        padding-bottom: 5px;
+    }
+
+    .main-section {
+        background-image: url('../images/Cantinhodobolo1920x1080.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bolo-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 0 auto;
+        gap: 20px;
+        padding: 36px;
+    }
+
+    .bolo-header {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .menu-completo {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .bolo-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bolo-img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Extra Large devices (75em and up) */
+
+@media (min-width: 75em) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .nav-menu a{
+        display: block;
+        text-decoration: none;
+        font-size: 2.0em;
+        transition: all 0.2s;
+    }
+
+    .nav-menu a:hover {
+        border-bottom: 2px solid var(--border-nav-color);
+        padding-bottom: 5px;
+        transform: translateY(-5px);
+    }
+
+    .main-section {
+        background-image: url('../images/Cantinhodobolo1920x1080.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bolo-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-auto-rows: max-content;
+        width: 70%;
+        margin: 0 auto;
+        width: 70%;
+        padding: 36px;
+    }
+
+    .bolo-header {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .menu-completo {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .bolo-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bolo-img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .menu-completo a{
+       padding: 13px 10px; 
+    }
+
+    .menu-completo a:hover{
+        background-color: #fc7b75;
+    }
+}

@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: #7B3D3E;
+}
+
+.gridContainer {
+    display: grid;
+    width: 90%;
+    gap: 10px;
+
+    grid-template-rows: repeat(3, 100px);
+    grid-auto-flow: column;
+    grid-auto-columns: 50px 100px;
+}
+
+.gridItem {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,96 @@
+@keyframes walk {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 -2390px;
+    }
+}
+
+@keyframes walk2 {
+    from {
+        background-position: -400px 0;
+    }
+
+    to {
+        background-position: -400px -1400px;
+    }
+}
+
+@keyframes walk3 {
+    from {
+        background-position: -800px 0;
+    }
+
+    to {
+        background-position: -800px -2000px;
+    }
+}
+
+@keyframes walk4 {
+    from {
+        background-position: -1200px 0;
+    }
+
+    to {
+        background-position: -1200px -2600px;
+    }
+}
+
+.flex {
+    display: flex;
+    gap: 100px;
+}
+
+.cat {
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    background-image: url(../images/walking_sprite.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+
+    animation: walk 1s infinite;
+    animation-timing-function: steps(12);
+}
+
+.cat2 {
+    width: 400px;
+    height: 195px;
+    background-color: #ccc;
+    background-image: url(../images/walking_sprite.png);
+    background-position: -400px 0;
+    background-repeat: no-repeat;
+
+    animation: walk2 2s infinite;
+    animation-timing-function: steps(7);
+}
+
+.cat3 {
+    width: 400px;
+    height: 195px;
+    background-color: #ccc;
+    background-image: url(../images/walking_sprite.png);
+    background-position: -800px 0;
+    background-repeat: no-repeat;
+
+    animation: walk3 1s infinite;
+    animation-timing-function: steps(10);
+}
+
+.cat4 {
+    width: 400px;
+    height: 195px;
+    background-color: #ccc;
+    background-image: url(../images/walking_sprite.png);
+    background-position: -1200px 0;
+    background-repeat: no-repeat;
+
+    animation: walk4 1s infinite;
+    animation-timing-function: steps(13);
+}
+
+.flex > div {
+    background-color: white;
+}

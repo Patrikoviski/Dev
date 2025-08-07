@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+    list-style-position: outside; /*Padrao*/
+}
+
+ol li {
+    list-style: lower-latin inside;
+}

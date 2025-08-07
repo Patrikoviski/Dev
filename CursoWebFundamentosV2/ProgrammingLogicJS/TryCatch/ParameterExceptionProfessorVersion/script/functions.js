@@ -1,0 +1,6 @@
+function RectangleArea(number1, number2) {
+    if (typeof number1 !== "number" || typeof number2 !== "number") {
+        throw new Error("RectangleArea accepts 2 parameters type of number")
+    }
+    return number1 * number2
+}

@@ -1,0 +1,30 @@
+@container cardWrapper (min-width: 50em) {
+    /* .container {
+        display: flex;
+        gap: 3.6rem;
+    }
+
+    .container > div {
+        align-content: center;
+    } */
+
+    .card {
+        flex-direction: row;
+    }
+
+    .card_header img {
+        max-height: initial;
+    }
+} 
+
+
+@container main (min-width: 70em) {
+    .cards_container {
+
+        flex-direction: row;
+    }
+
+    .card_wrapper {
+        flex-grow: 1;
+    }
+}

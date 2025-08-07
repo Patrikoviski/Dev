@@ -1,0 +1,45 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+h1 {
+    width: 80%;
+    text-align: center;
+    font-size: 45px;
+    background-color: #971C16;
+    color: #FF9F9A;
+    box-shadow: 1px 1px 5px black;
+    padding: 16px;
+}
+
+caption {
+    text-align: left;
+    color: rgb(252, 113, 113);
+    font-size: 40px;
+    border-bottom: 2px solid rgb(252, 113, 113);
+    margin-bottom: 30px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(204, 202, 202);
+}
+
+thead tr:first-child th {
+    text-align: left;
+    color: initial;
+    background-color: white;
+
+    padding-bottom: 16px;
+}
+
+table {
+    width: 80%;
+    height: 100vh;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    margin: 1em;
+    text-decoration: none;
+}
+
+nav {
+    padding: 5px;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+    background: #ccc5;
+    backdrop-filter: blur(10px);
+}
+
+.scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 5em;
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: brown;
+    padding: 56px;
+}
+
+#title, #paragraph, #span {
+    color: white;
+    font-size: 36px;
+    font-family: cursive;
+}
+
+.input {
+    padding: 16px;
+    margin-left: 56px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.input:focus {
+    outline: none;
+}
+
+#button {
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+    background-color: mediumvioletred;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: brown;
+}
+
+#paragraph {
+    padding: 16px;
+    max-height: 50vh;
+    margin-left: 56px;
+    width: fit-content;
+    background-color: blueviolet;
+    border: 1px solid rgb(202, 144, 153);
+    border-radius: 5px;
+}

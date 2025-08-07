@@ -1,0 +1,99 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #3B68B2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background-color: #ffffff;
+    box-shadow: -5px 0px 1px rgba(0, 0, 0, .4);
+
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 30em;
+    padding: 1.5em;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+legend {
+    font-size: 36px;
+    padding-top:  36px;
+
+    color: #3B68B2;
+}
+
+label {
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+input{
+    border: 2px solid transparent;
+    border-bottom-color: #3B68B2;
+    padding: .5em 0;
+    transition: padding-left .08s;
+    outline: none;
+}
+
+input:invalid:focus {
+    border-color: red;
+}
+
+input:valid:focus {
+    border-color: #0ec72a;
+}
+
+input:focus {
+    border: 2px solid #3B68B2;
+    padding-left: .3rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5em;
+}
+
+.button button {
+    padding: 9px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+
+    cursor: pointer;
+
+    background-color: #3B68B2;
+    color: #ffffff;
+}
+
+.btn2 label {
+    text-transform: lowercase;
+}
+
+.log button {
+    padding: 16px;
+    text-transform: uppercase;
+}
+
+.log a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px;
+}
+
+.button a {
+    text-decoration: none;
+}

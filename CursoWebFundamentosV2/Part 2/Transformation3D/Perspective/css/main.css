@@ -1,0 +1,57 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.scane {
+    border: 2px solid #ccc;
+    width: 300px;
+    aspect-ratio: 1;
+    margin: 80px;
+}
+
+.plane {
+    background-color: red;
+}
+
+#scane1 {
+    perspective: 400px;
+}
+
+#scane1 .plane {
+    width: 200px;
+    margin: 50px;
+    aspect-ratio: 1;
+    transform: rotateY(25deg);
+}
+
+#scane2 .plane {
+    width: 200px;
+    margin: 50px;
+    aspect-ratio: 1;
+    transform: perspective(400px) rotateY(25deg);
+}
+
+#scane3, #scane4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#scane3 .plane, #scane4 .plane {
+    margin: 1rem;
+}
+
+#scane3 {
+    perspective: 400px;
+}
+
+#scane3 .plane {
+    transform: rotateY(45deg);
+}
+
+#scane4 .plane {
+    transform: perspective(400px) rotateY(45deg);
+    backface-visibility: hidden;
+}
