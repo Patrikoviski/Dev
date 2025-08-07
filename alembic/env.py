@@ -16,6 +16,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 
+
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
@@ -27,6 +28,11 @@ if config.config_file_name is not None:
 
 # add your model's MetaData object here
 # for 'autogenerate' support
+
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SQLALCHEMY_DATABASE_URL = "sqlite:///" + os.path.join(BASE_DIR, "API", "Python", "Introduction", "database.db")
+
 from API.Python.Introduction.models import Base
 target_metadata = Base.metadata
 
@@ -60,6 +66,8 @@ def run_migrations_offline() -> None:
         context.run_migrations()
 
 
+
+
 def run_migrations_online() -> None:
     """Run migrations in 'online' mode.
 
@@ -71,6 +79,7 @@ def run_migrations_online() -> None:
         config.get_section(config.config_ini_section, {}),
         prefix="sqlalchemy.",
         poolclass=pool.NullPool,
+        url=SQLALCHEMY_DATABASE_URL
     )
 
     with connectable.connect() as connection:
