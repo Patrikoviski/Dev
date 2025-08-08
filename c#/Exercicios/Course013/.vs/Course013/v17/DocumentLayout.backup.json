@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Course013\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36CBA087-9EBA-4535-A336-46C5DBF18EE2}|Course013\\Membros Estaticos.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\course013\\course013\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CBA087-9EBA-4535-A336-46C5DBF18EE2}|Course013\\Membros Estaticos.csproj|solutionrelative:course013\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CBA087-9EBA-4535-A336-46C5DBF18EE2}|Course013\\Membros Estaticos.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\course013\\course013\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CBA087-9EBA-4535-A336-46C5DBF18EE2}|Course013\\Membros Estaticos.csproj|solutionrelative:course013\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculadora.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Course013\\Course013\\Calculadora.cs",
+              "RelativeDocumentMoniker": "Course013\\Calculadora.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Course013\\Course013\\Calculadora.cs",
+              "RelativeToolTip": "Course013\\Calculadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:20:46.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Course013\\Course013\\Program.cs",
+              "RelativeDocumentMoniker": "Course013\\Program.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Course013\\Course013\\Program.cs",
+              "RelativeToolTip": "Course013\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:56:49.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

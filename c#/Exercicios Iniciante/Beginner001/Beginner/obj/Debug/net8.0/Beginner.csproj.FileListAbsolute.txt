@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\bin\Debug\net8.0\Beginner.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\bin\Debug\net8.0\Beginner.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\bin\Debug\net8.0\Beginner.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\bin\Debug\net8.0\Beginner.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\bin\Debug\net8.0\Beginner.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\obj\Debug\net8.0\Beginner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\obj\Debug\net8.0\Beginner.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\obj\Debug\net8.0\Beginner.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\obj\Debug\net8.0\Beginner.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\obj\Debug\net8.0\Beginner.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\obj\Debug\net8.0\refint\Beginner.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\obj\Debug\net8.0\Beginner.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\obj\Debug\net8.0\Beginner.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner\Beginner\obj\Debug\net8.0\ref\Beginner.dll

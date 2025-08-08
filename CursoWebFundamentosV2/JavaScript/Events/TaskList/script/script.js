@@ -7,8 +7,32 @@
     let container = document.querySelectorAll(".todo-list__container")
     
     // Lista de tarefas baseada em um array de objetos
-    let arrTasks = []
+    let arrTasks = getSavedData()
 
+    // Mapeamento das ações
+
+    const actions = {
+        'fa-trash-alt': removeTask,
+        'button-check': toggleCheckAction,
+        'fa-edit': startEditAction,
+        'editButton': saveEditAction,
+        'cancelButton': cancelEditAction,
+    };
+
+    function getSavedData() {
+        let tasksData = localStorage.getItem("tasks");
+        
+        // Se o localStorage retornar null, a linha abaixo usa "[]"
+        // para que JSON.parse() retorne um array vazio
+        let parsedTasks = JSON.parse(tasksData ?? "[]");
+        return parsedTasks;
+    }  
+
+    function setNewData() {
+        localStorage.setItem("tasks", JSON.stringify(arrTasks))
+    }
+
+    setNewData();
 
     // Função para gerar Li's
 
@@ -58,14 +82,60 @@
                 completed: false
             })
             renderTasks()
+            setNewData()
         }
     }
 
     // Função para remover uma tarefa
 
-    function removeTask(index) {
+    function removeTask(undefined, index, target) {
         arrTasks.splice(index, 1)
         renderTasks()
+        setNewData()
+    }
+
+    // Função para alternar o estado de conclusão de uma tarefa
+
+    function toggleCheckAction(parentLi, index, target) {
+        arrTasks[index].completed = !arrTasks[index].completed
+        renderTasks()
+        setNewData()
+    }
+
+    // Função para iniciar a edição de uma tarefa
+
+    function startEditAction(parentLi, index, target) {
+        const editContainer = parentLi.querySelector(".editContainer")
+        editContainer.style.display = "flex"
+
+        const allEditButtons = taskList.querySelectorAll(".fa-edit")
+        allEditButtons.forEach(button => {
+            if (button !== target) {
+                button.classList.add("disabled-edit")
+            }
+        })
+
+        const editInput = editContainer.querySelector(".editInput")
+        editInput.value = arrTasks[index].name
+        editInput.focus()
+    }
+
+    // Função para salvar a edição de uma tarefa
+
+    function saveEditAction(parentLi, index) {
+        const editInput = parentLi.querySelector(".editInput")
+        arrTasks[index].name = editInput.value
+        renderTasks()
+        setNewData()
+    }
+
+    // Função para cancelar a edição de uma tarefa
+
+    function cancelEditAction(parentLi) {
+        const editContainer = parentLi.querySelector(".editContainer")
+        editContainer.style.display = "none"
+
+        // input = parentLi.querySelector(".editInput").value = arrTasks[index].name
     }
     
     // Função para ajustar o padding do container
@@ -73,8 +143,10 @@
     function adjustContainerPadding() {
         if (arrTasks.length === 0) {
             container.forEach(element => element.style.padding = "0")
+            console.log(arrTasks.length)
         } else {
             container.forEach(element => element.style.padding = "2rem")
+            console.log(arrTasks.length)
         }
     }
 
@@ -95,122 +167,31 @@
         
         if (!parentLi) return
         
+        if (target.classList.contains("disabled-edit")) return
+        
         const index = parentLi.dataset.index
+        const task = arrTasks[index]
 
-        // Verifica primeiro se a tarefa está completa e é uma tentativa de edição
-        if (arrTasks[index].completed && target.classList.contains("fa-edit")) {
-            return
+        if (task.completed && target.classList.contains("fa-edit")) return
+
+        // Encontra a classe de ação
+
+        let actionClass = ''
+        for (const key in actions) {
+            if (target.classList.contains(key) || target.closest(`.${key}`)) {
+                actionClass = key
+                break
+            }
         }
 
-        if (target.classList.contains("fa-trash-alt")) {
-            removeTask(index)
+        // Se uma ação for encontrada, execute a função correspondente
 
-        } else if (target.classList.contains("button-check") || target.closest(".button-check")) {
-
-            // Lógica para marcar como completa
-            
-            arrTasks[index].completed = !arrTasks[index].completed
-            renderTasks()
-
-        } else if (target.classList.contains("fa-edit")) {
-
-            // Exibe o container de edição
-
-            const editContainer = parentLi.querySelector(".editContainer")
-            editContainer.style.display = "flex"
-            const editInput = editContainer.querySelector(".editInput")
-            editInput.value = arrTasks[index].name
-            editInput.focus()
-
-        } else if (target.classList.contains("editButton")) {
-
-            // Edita a tarefa
-
-            const editInput = parentLi.querySelector(".editInput")
-            arrTasks[index].name = editInput.value
-            renderTasks()
-
-        } else if (target.classList.contains("cancelButton")) {
-
-            // Cancela a edição
-
-            const editContainer = parentLi.querySelector(".editContainer")
-            editContainer.style.display = "none"
-
+        if (actionClass && typeof actions[actionClass] === 'function') {
+            actions[actionClass](parentLi, index, target)
         }
     })
 
     // Renderiza as tarefas iniciais (se houver alguma)
     renderTasks()
 
-
-
-    /* CÓDIGO ANTERIOR E EVOLUÇÃO - Mantido para estudo
-    
-    PRIMEIRA VERSÃO:
-    // Este código foi substituído pela delegação de eventos acima
-    // O problema deste código é que ele adicionava listeners em elementos que são recriados
-    // toda vez que renderTasks() é chamado, fazendo com que os eventos não funcionassem
-    
-    const editContainer = document.querySelectorAll(".editContainer")
-
-    editContainer.forEach(container => {
-        container.addEventListener("click", function(e) {
-            const target = e.target
-            const parentLi = target.closest("li")
-            
-            if (!parentLi) return
-            
-            const index = parentLi.dataset.index
-
-            if (target.classList.contains("fa-edit")) {
-                // Exibe o container de edição
-                const editContainer = parentLi.querySelector(".editContainer")
-                editContainer.style.display = "flex"
-                const editInput = editContainer.querySelector(".editInput")
-                editInput.value = arrTasks[index].name
-                editInput.focus()
-
-            } else if (target.classList.contains("editButton")) {
-                // Edita a tarefa
-                const editInput = parentLi.querySelector(".editInput")
-                arrTasks[index].name = editInput.value
-                renderTasks()
-
-            } else if (target.classList.contains("cancelButton")) {
-                // Cancela a edição
-                const editContainer = parentLi.querySelector(".editContainer")
-                editContainer.style.display = "none"
-
-            } else if (target.classList.contains("button-check") || target.closest(".button-check")) {
-                // Lógica para marcar como completa
-                arrTasks[index].completed = !arrTasks[index].completed
-                renderTasks()
-            }
-        })
-    })
-
-    MELHORIAS IMPLEMENTADAS:
-    1. Delegação de eventos:
-       - Removido o forEach e listeners individuais
-       - Adicionado um único listener no elemento pai (taskList)
-       - Melhor performance e manutenção do código
-
-    2. Tratamento de tarefas completadas:
-       - Adicionada verificação prévia se a tarefa está completa
-       - Adicionada classe disabled-edit direto na geração do HTML
-       - Feedback visual com CSS para tarefas completadas
-
-    3. Organização do código:
-       - Verificações de estado no início do listener
-       - Lógica de apresentação movida para função generateLiTask
-       - Separação clara entre lógica de estado e apresentação
-
-    4. CSS necessário para as melhorias:
-       .disabled-edit {
-           pointer-events: none;
-           cursor: not-allowed;
-           opacity: 0.5;
-       }
-    */
 })()

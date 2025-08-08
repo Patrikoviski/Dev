@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\bin\Debug\net8.0\Datas04.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\bin\Debug\net8.0\Datas04.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\bin\Debug\net8.0\Datas04.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\bin\Debug\net8.0\Datas04.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\bin\Debug\net8.0\Datas04.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\obj\Debug\net8.0\Datas04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\obj\Debug\net8.0\Datas04.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\obj\Debug\net8.0\Datas04.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\obj\Debug\net8.0\Datas04.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\obj\Debug\net8.0\Datas04.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\obj\Debug\net8.0\refint\Datas04.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\obj\Debug\net8.0\Datas04.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\obj\Debug\net8.0\Datas04.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas04\Datas04\obj\Debug\net8.0\ref\Datas04.dll

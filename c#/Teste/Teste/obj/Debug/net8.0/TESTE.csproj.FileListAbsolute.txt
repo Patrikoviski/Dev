@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\bin\Debug\net8.0\TESTE.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\bin\Debug\net8.0\TESTE.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\bin\Debug\net8.0\TESTE.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\bin\Debug\net8.0\TESTE.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\bin\Debug\net8.0\TESTE.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\obj\Debug\net8.0\TESTE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\obj\Debug\net8.0\TESTE.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\obj\Debug\net8.0\TESTE.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\obj\Debug\net8.0\TESTE.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\obj\Debug\net8.0\TESTE.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\obj\Debug\net8.0\refint\TESTE.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\obj\Debug\net8.0\TESTE.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\obj\Debug\net8.0\TESTE.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\TESTE\TESTE\obj\Debug\net8.0\ref\TESTE.dll

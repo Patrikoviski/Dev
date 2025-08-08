@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\bin\Debug\net8.0\Datas05.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\bin\Debug\net8.0\Datas05.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\bin\Debug\net8.0\Datas05.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\bin\Debug\net8.0\Datas05.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\bin\Debug\net8.0\Datas05.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\obj\Debug\net8.0\Datas05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\obj\Debug\net8.0\Datas05.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\obj\Debug\net8.0\Datas05.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\obj\Debug\net8.0\Datas05.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\obj\Debug\net8.0\Datas05.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\obj\Debug\net8.0\refint\Datas05.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\obj\Debug\net8.0\Datas05.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\obj\Debug\net8.0\Datas05.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas05\Datas05\obj\Debug\net8.0\ref\Datas05.dll

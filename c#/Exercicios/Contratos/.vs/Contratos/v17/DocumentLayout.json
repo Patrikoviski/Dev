@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\contratos\\contratos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|solutionrelative:contratos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\contratos\\contratos\\entities\\installment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|solutionrelative:contratos\\entities\\installment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\contratos\\contratos\\services\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|solutionrelative:contratos\\services\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\contratos\\contratos\\entities\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|solutionrelative:contratos\\entities\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\contratos\\contratos\\services\\paypalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|solutionrelative:contratos\\services\\paypalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\contratos\\contratos\\services\\ionlinepaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AF2C75-FC07-40C3-9E16-11B7461108E6}|Contratos\\Contratos.csproj|solutionrelative:contratos\\services\\ionlinepaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaypalService.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Services\\PaypalService.cs",
+              "RelativeDocumentMoniker": "Contratos\\Services\\PaypalService.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Services\\PaypalService.cs",
+              "RelativeToolTip": "Contratos\\Services\\PaypalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:54:25.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOnlinePaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Services\\IOnlinePaymentService.cs",
+              "RelativeDocumentMoniker": "Contratos\\Services\\IOnlinePaymentService.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Services\\IOnlinePaymentService.cs",
+              "RelativeToolTip": "Contratos\\Services\\IOnlinePaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:52:12.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContractService.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Services\\ContractService.cs",
+              "RelativeDocumentMoniker": "Contratos\\Services\\ContractService.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Services\\ContractService.cs",
+              "RelativeToolTip": "Contratos\\Services\\ContractService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:50:34.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Installment.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Entities\\Installment.cs",
+              "RelativeDocumentMoniker": "Contratos\\Entities\\Installment.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Entities\\Installment.cs",
+              "RelativeToolTip": "Contratos\\Entities\\Installment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:43:53.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contract.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Entities\\Contract.cs",
+              "RelativeDocumentMoniker": "Contratos\\Entities\\Contract.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Entities\\Contract.cs",
+              "RelativeToolTip": "Contratos\\Entities\\Contract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:42:08.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Program.cs",
+              "RelativeDocumentMoniker": "Contratos\\Program.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Contratos\\Contratos\\Program.cs",
+              "RelativeToolTip": "Contratos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:40:21.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

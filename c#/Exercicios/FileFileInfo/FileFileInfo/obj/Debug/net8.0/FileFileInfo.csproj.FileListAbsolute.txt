@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\bin\Debug\net8.0\FileFileInfo.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\bin\Debug\net8.0\FileFileInfo.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\bin\Debug\net8.0\FileFileInfo.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\bin\Debug\net8.0\FileFileInfo.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\bin\Debug\net8.0\FileFileInfo.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\obj\Debug\net8.0\FileFileInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\obj\Debug\net8.0\FileFileInfo.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\obj\Debug\net8.0\FileFileInfo.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\obj\Debug\net8.0\FileFileInfo.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\obj\Debug\net8.0\FileFileInfo.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\obj\Debug\net8.0\refint\FileFileInfo.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\obj\Debug\net8.0\FileFileInfo.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\obj\Debug\net8.0\FileFileInfo.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileFileInfo\FileFileInfo\obj\Debug\net8.0\ref\FileFileInfo.dll

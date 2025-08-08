@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\obj\Debug\net8.0\Contratos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\obj\Debug\net8.0\Contratos.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\obj\Debug\net8.0\Contratos.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\obj\Debug\net8.0\Contratos.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\bin\Debug\net8.0\Contratos.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\bin\Debug\net8.0\Contratos.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\bin\Debug\net8.0\Contratos.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\bin\Debug\net8.0\Contratos.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\bin\Debug\net8.0\Contratos.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\obj\Debug\net8.0\Contratos.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\obj\Debug\net8.0\refint\Contratos.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\obj\Debug\net8.0\Contratos.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\obj\Debug\net8.0\Contratos.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Contratos\Contratos\obj\Debug\net8.0\ref\Contratos.dll

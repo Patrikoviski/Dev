@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\bin\Debug\net8.0\Beginner007.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\bin\Debug\net8.0\Beginner007.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\bin\Debug\net8.0\Beginner007.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\bin\Debug\net8.0\Beginner007.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\bin\Debug\net8.0\Beginner007.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\obj\Debug\net8.0\Beginner007.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\obj\Debug\net8.0\Beginner007.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\obj\Debug\net8.0\Beginner007.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\obj\Debug\net8.0\Beginner007.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\obj\Debug\net8.0\Beginner007.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\obj\Debug\net8.0\refint\Beginner007.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\obj\Debug\net8.0\Beginner007.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\obj\Debug\net8.0\Beginner007.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Beginner007\Beginner007\obj\Debug\net8.0\ref\Beginner007.dll

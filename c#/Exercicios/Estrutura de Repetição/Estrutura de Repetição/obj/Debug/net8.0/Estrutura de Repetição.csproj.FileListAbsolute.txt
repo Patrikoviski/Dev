@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\bin\Debug\net8.0\Estrutura de Repetição.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\bin\Debug\net8.0\Estrutura de Repetição.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\bin\Debug\net8.0\Estrutura de Repetição.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\bin\Debug\net8.0\Estrutura de Repetição.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\bin\Debug\net8.0\Estrutura de Repetição.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\obj\Debug\net8.0\Estrutura de Repetição.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\obj\Debug\net8.0\Estrutura de Repetição.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\obj\Debug\net8.0\Estrutura de Repetição.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\obj\Debug\net8.0\Estrutura de Repetição.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\obj\Debug\net8.0\Estrutura de Repetição.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\obj\Debug\net8.0\refint\Estrutura de Repetição.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\obj\Debug\net8.0\Estrutura de Repetição.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\obj\Debug\net8.0\Estrutura de Repetição.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura de Repetição\Estrutura de Repetição\obj\Debug\net8.0\ref\Estrutura de Repetição.dll

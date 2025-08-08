@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Ex033\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A93B676-86AC-4271-81C5-93B46125DFDC}|Ex033\\Ex033.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\ex033\\ex033\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A93B676-86AC-4271-81C5-93B46125DFDC}|Ex033\\Ex033.csproj|solutionrelative:ex033\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A93B676-86AC-4271-81C5-93B46125DFDC}|Ex033\\Ex033.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\ex033\\ex033\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A93B676-86AC-4271-81C5-93B46125DFDC}|Ex033\\Ex033.csproj|solutionrelative:ex033\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Ex033\\Ex033\\Student.cs",
+              "RelativeDocumentMoniker": "Ex033\\Student.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Ex033\\Ex033\\Student.cs",
+              "RelativeToolTip": "Ex033\\Student.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:01:21.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Ex033\\Ex033\\Program.cs",
+              "RelativeDocumentMoniker": "Ex033\\Program.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Ex033\\Ex033\\Program.cs",
+              "RelativeToolTip": "Ex033\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:58:57.777Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

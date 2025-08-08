@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\bin\Debug\net8.0\Datas2.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\bin\Debug\net8.0\Datas2.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\bin\Debug\net8.0\Datas2.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\bin\Debug\net8.0\Datas2.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\bin\Debug\net8.0\Datas2.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\obj\Debug\net8.0\Datas2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\obj\Debug\net8.0\Datas2.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\obj\Debug\net8.0\Datas2.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\obj\Debug\net8.0\Datas2.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\obj\Debug\net8.0\Datas2.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\obj\Debug\net8.0\refint\Datas2.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\obj\Debug\net8.0\Datas2.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\obj\Debug\net8.0\Datas2.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas2\Datas2\obj\Debug\net8.0\ref\Datas2.dll

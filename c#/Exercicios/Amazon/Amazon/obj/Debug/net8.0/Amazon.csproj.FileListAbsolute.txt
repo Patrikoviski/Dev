@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\bin\Debug\net8.0\Amazon.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\bin\Debug\net8.0\Amazon.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\bin\Debug\net8.0\Amazon.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\bin\Debug\net8.0\Amazon.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\bin\Debug\net8.0\Amazon.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\obj\Debug\net8.0\Amazon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\obj\Debug\net8.0\Amazon.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\obj\Debug\net8.0\Amazon.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\obj\Debug\net8.0\Amazon.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\obj\Debug\net8.0\Amazon.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\obj\Debug\net8.0\refint\Amazon.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\obj\Debug\net8.0\Amazon.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\obj\Debug\net8.0\Amazon.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon\Amazon\obj\Debug\net8.0\ref\Amazon.dll

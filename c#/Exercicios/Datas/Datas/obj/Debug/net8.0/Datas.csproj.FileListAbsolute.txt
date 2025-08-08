@@ -1,0 +1,4 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas\Datas\obj\Debug\net8.0\Datas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas\Datas\obj\Debug\net8.0\Datas.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas\Datas\obj\Debug\net8.0\Datas.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Datas\Datas\obj\Debug\net8.0\Datas.csproj.CoreCompileInputs.cache

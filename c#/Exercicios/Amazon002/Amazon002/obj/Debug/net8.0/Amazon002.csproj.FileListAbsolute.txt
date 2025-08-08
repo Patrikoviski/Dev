@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\bin\Debug\net8.0\Amazon002.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\bin\Debug\net8.0\Amazon002.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\bin\Debug\net8.0\Amazon002.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\bin\Debug\net8.0\Amazon002.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\bin\Debug\net8.0\Amazon002.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\obj\Debug\net8.0\Amazon002.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\obj\Debug\net8.0\Amazon002.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\obj\Debug\net8.0\Amazon002.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\obj\Debug\net8.0\Amazon002.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\obj\Debug\net8.0\Amazon002.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\obj\Debug\net8.0\refint\Amazon002.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\obj\Debug\net8.0\Amazon002.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\obj\Debug\net8.0\Amazon002.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Amazon002\Amazon002\obj\Debug\net8.0\ref\Amazon002.dll

@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\obj\Debug\net8.0\Enterprise002.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\obj\Debug\net8.0\Enterprise002.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\obj\Debug\net8.0\Enterprise002.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\obj\Debug\net8.0\Enterprise002.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\bin\Debug\net8.0\Enterprise002.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\bin\Debug\net8.0\Enterprise002.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\bin\Debug\net8.0\Enterprise002.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\bin\Debug\net8.0\Enterprise002.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\bin\Debug\net8.0\Enterprise002.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\obj\Debug\net8.0\Enterprise002.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\obj\Debug\net8.0\refint\Enterprise002.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\obj\Debug\net8.0\Enterprise002.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\obj\Debug\net8.0\Enterprise002.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Enterprise002\Enterprise002\obj\Debug\net8.0\ref\Enterprise002.dll

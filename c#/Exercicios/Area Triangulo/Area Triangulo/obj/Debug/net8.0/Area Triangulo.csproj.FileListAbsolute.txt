@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\bin\Debug\net8.0\Area Triangulo.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\bin\Debug\net8.0\Area Triangulo.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\bin\Debug\net8.0\Area Triangulo.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\bin\Debug\net8.0\Area Triangulo.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\bin\Debug\net8.0\Area Triangulo.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\obj\Debug\net8.0\Area Triangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\obj\Debug\net8.0\Area Triangulo.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\obj\Debug\net8.0\Area Triangulo.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\obj\Debug\net8.0\Area Triangulo.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\obj\Debug\net8.0\Area Triangulo.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\obj\Debug\net8.0\refint\Area Triangulo.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\obj\Debug\net8.0\Area Triangulo.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\obj\Debug\net8.0\Area Triangulo.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Area Triangulo\Area Triangulo\obj\Debug\net8.0\ref\Area Triangulo.dll

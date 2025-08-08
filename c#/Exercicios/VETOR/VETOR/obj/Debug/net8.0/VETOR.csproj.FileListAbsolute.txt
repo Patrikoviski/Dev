@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\bin\Debug\net8.0\VETOR.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\bin\Debug\net8.0\VETOR.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\bin\Debug\net8.0\VETOR.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\bin\Debug\net8.0\VETOR.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\bin\Debug\net8.0\VETOR.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\obj\Debug\net8.0\VETOR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\obj\Debug\net8.0\VETOR.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\obj\Debug\net8.0\VETOR.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\obj\Debug\net8.0\VETOR.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\obj\Debug\net8.0\VETOR.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\obj\Debug\net8.0\refint\VETOR.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\obj\Debug\net8.0\VETOR.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\obj\Debug\net8.0\VETOR.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\VETOR\VETOR\obj\Debug\net8.0\ref\VETOR.dll

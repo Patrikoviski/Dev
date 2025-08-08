@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\bin\Debug\net8.0\Ex008.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\bin\Debug\net8.0\Ex008.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\bin\Debug\net8.0\Ex008.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\bin\Debug\net8.0\Ex008.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\bin\Debug\net8.0\Ex008.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\obj\Debug\net8.0\Ex008.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\obj\Debug\net8.0\Ex008.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\obj\Debug\net8.0\Ex008.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\obj\Debug\net8.0\Ex008.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\obj\Debug\net8.0\Ex008.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\obj\Debug\net8.0\refint\Ex008.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\obj\Debug\net8.0\Ex008.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\obj\Debug\net8.0\Ex008.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex008\Ex008\obj\Debug\net8.0\ref\Ex008.dll

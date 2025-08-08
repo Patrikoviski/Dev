@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\obj\Debug\net8.0\refint\Estrutura Condicional.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional\Estrutura Condicional\obj\Debug\net8.0\ref\Estrutura Condicional.dll

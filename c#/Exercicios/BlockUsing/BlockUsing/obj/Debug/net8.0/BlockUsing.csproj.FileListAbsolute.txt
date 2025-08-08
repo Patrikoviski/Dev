@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\obj\Debug\net8.0\BlockUsing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\obj\Debug\net8.0\BlockUsing.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\obj\Debug\net8.0\BlockUsing.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\obj\Debug\net8.0\BlockUsing.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\bin\Debug\net8.0\BlockUsing.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\bin\Debug\net8.0\BlockUsing.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\bin\Debug\net8.0\BlockUsing.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\bin\Debug\net8.0\BlockUsing.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\bin\Debug\net8.0\BlockUsing.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\obj\Debug\net8.0\BlockUsing.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\obj\Debug\net8.0\refint\BlockUsing.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\obj\Debug\net8.0\BlockUsing.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\obj\Debug\net8.0\BlockUsing.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\BlockUsing\BlockUsing\obj\Debug\net8.0\ref\BlockUsing.dll

@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\bin\Debug\net8.0\Conta Bancária.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\bin\Debug\net8.0\Conta Bancária.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\bin\Debug\net8.0\Conta Bancária.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\bin\Debug\net8.0\Conta Bancária.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\bin\Debug\net8.0\Conta Bancária.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\obj\Debug\net8.0\Conta Bancária.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\obj\Debug\net8.0\Conta Bancária.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\obj\Debug\net8.0\Conta Bancária.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\obj\Debug\net8.0\Conta Bancária.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\obj\Debug\net8.0\Conta Bancária.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\obj\Debug\net8.0\refint\Conta Bancária.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\obj\Debug\net8.0\Conta Bancária.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\obj\Debug\net8.0\Conta Bancária.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Conta Bancária\Conta Bancária\obj\Debug\net8.0\ref\Conta Bancária.dll

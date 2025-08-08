@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\enumeracao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18505429-25AF-45FB-AD52-818D87886365}|enumeracao\\enumeracao.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\enumeracao\\enumeracao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18505429-25AF-45FB-AD52-818D87886365}|enumeracao\\enumeracao.csproj|solutionrelative:enumeracao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\enumeracao\\enumeracao\\Program.cs",
+              "RelativeDocumentMoniker": "enumeracao\\Program.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\enumeracao\\enumeracao\\Program.cs",
+              "RelativeToolTip": "enumeracao\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T18:31:50.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

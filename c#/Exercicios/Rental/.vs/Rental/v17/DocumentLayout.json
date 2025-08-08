@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\rental\\rental\\entities\\carrental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|solutionrelative:rental\\entities\\carrental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\rental\\rental\\services\\braziltaxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|solutionrelative:rental\\services\\braziltaxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\rental\\rental\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|solutionrelative:rental\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\rental\\rental\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|solutionrelative:rental\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\rental\\rental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|solutionrelative:rental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\rental\\rental\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|solutionrelative:rental\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\rental\\rental\\services\\itaxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C16A72C-AA07-4466-BEE2-4D9A2DB64CB7}|Rental\\Rental.csproj|solutionrelative:rental\\services\\itaxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITaxService.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Services\\ITaxService.cs",
+              "RelativeDocumentMoniker": "Rental\\Services\\ITaxService.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Services\\ITaxService.cs",
+              "RelativeToolTip": "Rental\\Services\\ITaxService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:36:17.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Services\\RentalService.cs",
+              "RelativeDocumentMoniker": "Rental\\Services\\RentalService.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Services\\RentalService.cs",
+              "RelativeToolTip": "Rental\\Services\\RentalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:16:22.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrazilTaxService.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Services\\BrazilTaxService.cs",
+              "RelativeDocumentMoniker": "Rental\\Services\\BrazilTaxService.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Services\\BrazilTaxService.cs",
+              "RelativeToolTip": "Rental\\Services\\BrazilTaxService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:14:06.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Entities\\Invoice.cs",
+              "RelativeDocumentMoniker": "Rental\\Entities\\Invoice.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Entities\\Invoice.cs",
+              "RelativeToolTip": "Rental\\Entities\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:53:43.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Rental\\Entities\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "Rental\\Entities\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:51:10.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Program.cs",
+              "RelativeDocumentMoniker": "Rental\\Program.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Program.cs",
+              "RelativeToolTip": "Rental\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:48:47.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarRental.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Entities\\CarRental.cs",
+              "RelativeDocumentMoniker": "Rental\\Entities\\CarRental.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Rental\\Rental\\Entities\\CarRental.cs",
+              "RelativeToolTip": "Rental\\Entities\\CarRental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:52:11.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

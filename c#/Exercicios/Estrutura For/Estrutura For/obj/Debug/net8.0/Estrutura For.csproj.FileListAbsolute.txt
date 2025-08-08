@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\bin\Debug\net8.0\Estrutura For.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\bin\Debug\net8.0\Estrutura For.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\bin\Debug\net8.0\Estrutura For.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\bin\Debug\net8.0\Estrutura For.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\bin\Debug\net8.0\Estrutura For.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\obj\Debug\net8.0\Estrutura For.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\obj\Debug\net8.0\Estrutura For.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\obj\Debug\net8.0\Estrutura For.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\obj\Debug\net8.0\Estrutura For.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\obj\Debug\net8.0\Estrutura For.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\obj\Debug\net8.0\refint\Estrutura For.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\obj\Debug\net8.0\Estrutura For.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\obj\Debug\net8.0\Estrutura For.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura For\Estrutura For\obj\Debug\net8.0\ref\Estrutura For.dll

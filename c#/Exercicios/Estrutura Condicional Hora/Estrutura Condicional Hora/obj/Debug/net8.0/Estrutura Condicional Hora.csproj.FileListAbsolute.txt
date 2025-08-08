@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\bin\Debug\net8.0\Estrutura Condicional Hora.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\bin\Debug\net8.0\Estrutura Condicional Hora.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\bin\Debug\net8.0\Estrutura Condicional Hora.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\bin\Debug\net8.0\Estrutura Condicional Hora.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\bin\Debug\net8.0\Estrutura Condicional Hora.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\obj\Debug\net8.0\Estrutura Condicional Hora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\obj\Debug\net8.0\Estrutura Condicional Hora.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\obj\Debug\net8.0\Estrutura Condicional Hora.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\obj\Debug\net8.0\Estrutura Condicional Hora.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\obj\Debug\net8.0\Estrutura Condicional Hora.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\obj\Debug\net8.0\refint\Estrutura Condicional Hora.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\obj\Debug\net8.0\Estrutura Condicional Hora.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\obj\Debug\net8.0\Estrutura Condicional Hora.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Estrutura Condicional Hora\Estrutura Condicional Hora\obj\Debug\net8.0\ref\Estrutura Condicional Hora.dll

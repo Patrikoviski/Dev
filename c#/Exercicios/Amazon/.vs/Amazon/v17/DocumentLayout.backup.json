@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\amazon\\amazon\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|solutionrelative:amazon\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\amazon\\amazon\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|solutionrelative:amazon\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\amazon\\amazon\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|solutionrelative:amazon\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\amazon\\amazon\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|solutionrelative:amazon\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\amazon\\amazon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|solutionrelative:amazon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\amazon\\amazon\\entities\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA4427D-5B98-4427-9776-31C502155F57}|Amazon\\Amazon.csproj|solutionrelative:amazon\\entities\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Amazon\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\Product.cs",
+              "RelativeToolTip": "Amazon\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:02:05.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "Amazon\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\Client.cs",
+              "RelativeToolTip": "Amazon\\Entities\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:59:55.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Amazon\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Amazon\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:37:31.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Amazon\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\Order.cs",
+              "RelativeToolTip": "Amazon\\Entities\\Order.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:36:01.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Amazon\\Entities\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Entities\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "Amazon\\Entities\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:34:09.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Program.cs",
+              "RelativeDocumentMoniker": "Amazon\\Program.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Amazon\\Amazon\\Program.cs",
+              "RelativeToolTip": "Amazon\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:32:28.604Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

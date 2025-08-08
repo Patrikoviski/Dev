@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\bin\Debug\net8.0\Operadores Logicos.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\bin\Debug\net8.0\Operadores Logicos.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\bin\Debug\net8.0\Operadores Logicos.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\bin\Debug\net8.0\Operadores Logicos.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\bin\Debug\net8.0\Operadores Logicos.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\obj\Debug\net8.0\Operadores Logicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\obj\Debug\net8.0\Operadores Logicos.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\obj\Debug\net8.0\Operadores Logicos.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\obj\Debug\net8.0\Operadores Logicos.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\obj\Debug\net8.0\Operadores Logicos.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\obj\Debug\net8.0\refint\Operadores Logicos.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\obj\Debug\net8.0\Operadores Logicos.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\obj\Debug\net8.0\Operadores Logicos.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Operadores Logicos\Operadores Logicos\obj\Debug\net8.0\ref\Operadores Logicos.dll

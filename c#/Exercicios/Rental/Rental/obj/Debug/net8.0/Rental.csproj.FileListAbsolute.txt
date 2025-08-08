@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\bin\Debug\net8.0\Rental.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\bin\Debug\net8.0\Rental.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\bin\Debug\net8.0\Rental.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\bin\Debug\net8.0\Rental.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\bin\Debug\net8.0\Rental.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\obj\Debug\net8.0\Rental.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\obj\Debug\net8.0\Rental.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\obj\Debug\net8.0\Rental.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\obj\Debug\net8.0\Rental.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\obj\Debug\net8.0\Rental.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\obj\Debug\net8.0\refint\Rental.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\obj\Debug\net8.0\Rental.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\obj\Debug\net8.0\Rental.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Rental\Rental\obj\Debug\net8.0\ref\Rental.dll

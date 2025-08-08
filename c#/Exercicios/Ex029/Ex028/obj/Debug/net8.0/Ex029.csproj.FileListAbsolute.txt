@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\bin\Debug\net8.0\Ex029.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\bin\Debug\net8.0\Ex029.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\bin\Debug\net8.0\Ex029.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\bin\Debug\net8.0\Ex029.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\bin\Debug\net8.0\Ex029.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\obj\Debug\net8.0\Ex029.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\obj\Debug\net8.0\Ex029.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\obj\Debug\net8.0\Ex029.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\obj\Debug\net8.0\Ex029.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\obj\Debug\net8.0\Ex029.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\obj\Debug\net8.0\refint\Ex029.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\obj\Debug\net8.0\Ex029.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\obj\Debug\net8.0\Ex029.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Exercicios\Ex029\Ex028\obj\Debug\net8.0\ref\Ex029.dll

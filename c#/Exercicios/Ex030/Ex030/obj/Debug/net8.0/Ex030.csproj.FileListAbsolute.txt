@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\obj\Debug\net8.0\Ex030.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\obj\Debug\net8.0\Ex030.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\obj\Debug\net8.0\Ex030.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\obj\Debug\net8.0\Ex030.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\bin\Debug\net8.0\Ex030.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\bin\Debug\net8.0\Ex030.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\bin\Debug\net8.0\Ex030.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\bin\Debug\net8.0\Ex030.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\bin\Debug\net8.0\Ex030.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\obj\Debug\net8.0\Ex030.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\obj\Debug\net8.0\refint\Ex030.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\obj\Debug\net8.0\Ex030.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\obj\Debug\net8.0\Ex030.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Ex030\Ex030\obj\Debug\net8.0\ref\Ex030.dll

@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\bin\Debug\net8.0\FileStreamReader.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\bin\Debug\net8.0\FileStreamReader.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\bin\Debug\net8.0\FileStreamReader.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\bin\Debug\net8.0\FileStreamReader.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\bin\Debug\net8.0\FileStreamReader.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\obj\Debug\net8.0\FileStreamReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\obj\Debug\net8.0\FileStreamReader.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\obj\Debug\net8.0\FileStreamReader.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\obj\Debug\net8.0\FileStreamReader.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\obj\Debug\net8.0\FileStreamReader.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\obj\Debug\net8.0\refint\FileStreamReader.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\obj\Debug\net8.0\FileStreamReader.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\obj\Debug\net8.0\FileStreamReader.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\FileStreamReader\FileStreamReader\obj\Debug\net8.0\ref\FileStreamReader.dll

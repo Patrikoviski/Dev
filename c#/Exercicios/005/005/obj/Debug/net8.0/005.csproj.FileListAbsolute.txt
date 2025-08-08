@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\bin\Debug\net8.0\005.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\bin\Debug\net8.0\005.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\bin\Debug\net8.0\005.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\bin\Debug\net8.0\005.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\bin\Debug\net8.0\005.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\obj\Debug\net8.0\005.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\obj\Debug\net8.0\005.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\obj\Debug\net8.0\005.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\obj\Debug\net8.0\005.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\obj\Debug\net8.0\005.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\obj\Debug\net8.0\refint\005.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\obj\Debug\net8.0\005.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\obj\Debug\net8.0\005.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\005\005\obj\Debug\net8.0\ref\005.dll

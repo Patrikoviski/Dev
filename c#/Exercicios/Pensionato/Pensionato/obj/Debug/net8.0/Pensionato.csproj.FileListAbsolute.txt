@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\bin\Debug\net8.0\Pensionato.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\bin\Debug\net8.0\Pensionato.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\bin\Debug\net8.0\Pensionato.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\bin\Debug\net8.0\Pensionato.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\bin\Debug\net8.0\Pensionato.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\obj\Debug\net8.0\Pensionato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\obj\Debug\net8.0\Pensionato.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\obj\Debug\net8.0\Pensionato.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\obj\Debug\net8.0\Pensionato.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\obj\Debug\net8.0\Pensionato.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\obj\Debug\net8.0\refint\Pensionato.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\obj\Debug\net8.0\Pensionato.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\obj\Debug\net8.0\Pensionato.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Pensionato\Pensionato\obj\Debug\net8.0\ref\Pensionato.dll

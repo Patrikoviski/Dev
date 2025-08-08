@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\obj\Debug\net8.0\Course006.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\obj\Debug\net8.0\Course006.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\obj\Debug\net8.0\Course006.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\obj\Debug\net8.0\Course006.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\bin\Debug\net8.0\Course006.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\bin\Debug\net8.0\Course006.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\bin\Debug\net8.0\Course006.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\bin\Debug\net8.0\Course006.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\bin\Debug\net8.0\Course006.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\obj\Debug\net8.0\Course006.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\obj\Debug\net8.0\refint\Course006.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\obj\Debug\net8.0\Course006.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\obj\Debug\net8.0\Course006.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Course006\Course006\obj\Debug\net8.0\ref\Course006.dll

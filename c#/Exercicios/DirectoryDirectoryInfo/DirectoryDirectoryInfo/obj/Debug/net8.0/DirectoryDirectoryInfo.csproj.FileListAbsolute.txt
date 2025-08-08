@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\bin\Debug\net8.0\DirectoryDirectoryInfo.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\bin\Debug\net8.0\DirectoryDirectoryInfo.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\bin\Debug\net8.0\DirectoryDirectoryInfo.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\bin\Debug\net8.0\DirectoryDirectoryInfo.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\bin\Debug\net8.0\DirectoryDirectoryInfo.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\net8.0\DirectoryDirectoryInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\net8.0\DirectoryDirectoryInfo.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\net8.0\DirectoryDirectoryInfo.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\net8.0\DirectoryDirectoryInfo.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\net8.0\DirectoryDirectoryInfo.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\net8.0\refint\DirectoryDirectoryInfo.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\net8.0\DirectoryDirectoryInfo.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\net8.0\DirectoryDirectoryInfo.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\net8.0\ref\DirectoryDirectoryInfo.dll

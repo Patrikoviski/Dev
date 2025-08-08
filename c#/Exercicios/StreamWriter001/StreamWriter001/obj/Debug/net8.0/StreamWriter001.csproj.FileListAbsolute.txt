@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\bin\Debug\net8.0\StreamWriter001.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\bin\Debug\net8.0\StreamWriter001.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\bin\Debug\net8.0\StreamWriter001.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\bin\Debug\net8.0\StreamWriter001.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\bin\Debug\net8.0\StreamWriter001.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\obj\Debug\net8.0\StreamWriter001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\obj\Debug\net8.0\StreamWriter001.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\obj\Debug\net8.0\StreamWriter001.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\obj\Debug\net8.0\StreamWriter001.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\obj\Debug\net8.0\StreamWriter001.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\obj\Debug\net8.0\refint\StreamWriter001.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\obj\Debug\net8.0\StreamWriter001.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\obj\Debug\net8.0\StreamWriter001.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\StreamWriter001\StreamWriter001\obj\Debug\net8.0\ref\StreamWriter001.dll

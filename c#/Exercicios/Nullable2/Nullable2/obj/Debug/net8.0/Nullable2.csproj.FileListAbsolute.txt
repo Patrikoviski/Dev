@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\bin\Debug\net8.0\Nullable2.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\bin\Debug\net8.0\Nullable2.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\bin\Debug\net8.0\Nullable2.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\bin\Debug\net8.0\Nullable2.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\bin\Debug\net8.0\Nullable2.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\obj\Debug\net8.0\Nullable2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\obj\Debug\net8.0\Nullable2.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\obj\Debug\net8.0\Nullable2.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\obj\Debug\net8.0\Nullable2.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\obj\Debug\net8.0\Nullable2.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\obj\Debug\net8.0\refint\Nullable2.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\obj\Debug\net8.0\Nullable2.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\obj\Debug\net8.0\Nullable2.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Nullable2\Nullable2\obj\Debug\net8.0\ref\Nullable2.dll

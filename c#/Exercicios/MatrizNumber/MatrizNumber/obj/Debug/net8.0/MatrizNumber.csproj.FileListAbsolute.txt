@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\bin\Debug\net8.0\MatrizNumber.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\bin\Debug\net8.0\MatrizNumber.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\bin\Debug\net8.0\MatrizNumber.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\bin\Debug\net8.0\MatrizNumber.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\bin\Debug\net8.0\MatrizNumber.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\obj\Debug\net8.0\MatrizNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\obj\Debug\net8.0\MatrizNumber.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\obj\Debug\net8.0\MatrizNumber.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\obj\Debug\net8.0\MatrizNumber.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\obj\Debug\net8.0\MatrizNumber.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\obj\Debug\net8.0\refint\MatrizNumber.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\obj\Debug\net8.0\MatrizNumber.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\obj\Debug\net8.0\MatrizNumber.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\MatrizNumber\MatrizNumber\obj\Debug\net8.0\ref\MatrizNumber.dll

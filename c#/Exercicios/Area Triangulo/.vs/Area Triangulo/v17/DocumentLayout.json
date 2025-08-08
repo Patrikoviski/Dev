@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Area Triangulo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C99066BF-7688-4BDD-81B2-53C71BC24789}|Area Triangulo\\Area Triangulo.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\area triangulo\\area triangulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99066BF-7688-4BDD-81B2-53C71BC24789}|Area Triangulo\\Area Triangulo.csproj|solutionrelative:area triangulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99066BF-7688-4BDD-81B2-53C71BC24789}|Area Triangulo\\Area Triangulo.csproj|c:\\users\\griff\\onedrive\\\u00E1rea de trabalho\\c#\\area triangulo\\area triangulo\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99066BF-7688-4BDD-81B2-53C71BC24789}|Area Triangulo\\Area Triangulo.csproj|solutionrelative:area triangulo\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Triangulo.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Area Triangulo\\Area Triangulo\\Triangulo.cs",
+              "RelativeDocumentMoniker": "Area Triangulo\\Triangulo.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Area Triangulo\\Area Triangulo\\Triangulo.cs",
+              "RelativeToolTip": "Area Triangulo\\Triangulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:29:29.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Area Triangulo\\Area Triangulo\\Program.cs",
+              "RelativeDocumentMoniker": "Area Triangulo\\Program.cs",
+              "ToolTip": "C:\\Users\\griff\\OneDrive\\\u00C1rea de Trabalho\\c#\\Area Triangulo\\Area Triangulo\\Program.cs",
+              "RelativeToolTip": "Area Triangulo\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:05:28.198Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

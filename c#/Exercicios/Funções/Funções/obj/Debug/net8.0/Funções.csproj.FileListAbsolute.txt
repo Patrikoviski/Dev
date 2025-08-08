@@ -1,0 +1,14 @@
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\bin\Debug\net8.0\Funções.exe
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\bin\Debug\net8.0\Funções.deps.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\bin\Debug\net8.0\Funções.runtimeconfig.json
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\bin\Debug\net8.0\Funções.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\bin\Debug\net8.0\Funções.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\obj\Debug\net8.0\Funções.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\obj\Debug\net8.0\Funções.AssemblyInfoInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\obj\Debug\net8.0\Funções.AssemblyInfo.cs
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\obj\Debug\net8.0\Funções.csproj.CoreCompileInputs.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\obj\Debug\net8.0\Funções.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\obj\Debug\net8.0\refint\Funções.dll
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\obj\Debug\net8.0\Funções.pdb
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\obj\Debug\net8.0\Funções.genruntimeconfig.cache
+C:\Users\griff\OneDrive\Área de Trabalho\c#\Funções\Funções\obj\Debug\net8.0\ref\Funções.dll
