@@ -6,13 +6,13 @@
     // ✓   crie uma funcao construtora chamada Task.
     // ✓   essa funcao recebe por parametro obrigatório o nome da tarefa
     // ✓   também recebe tres parametros opcionais (completed, createdAt, updatedAt)
+    //  ✓  o objeto retornado por essa funcao deve ter quatro propriedades:
+    //  ✓  - name - string - obrigatório, 
+    //  ✓  - completed - boolean - opcional, false é o default, 
+    //  ✓  - createdAt - timestamp - opcional, timestamp atual é o valor default) 
+    //  ✓  - updatedAt - timestamp - opcional, null é o valor default
 
 	function Task(name, completed, createdAt, updatedAt){
-        //  ✓  o objeto retornado por essa funcao deve ter quatro propriedades:
-        //  ✓  - name - string - obrigatório, 
-        //  ✓  - completed - boolean - opcional, false é o default, 
-        //  ✓  - createdAt - timestamp - opcional, timestamp atual é o valor default) 
-        //  ✓  - updatedAt - timestamp - opcional, null é o valor default
 
         let _name = name
         let obj = {
@@ -135,7 +135,7 @@
 
     function addTask(task) {
         // adicione uma nova instancia de Task
-        task = new Task(task)
+        
         renderTasks()
 
     }
@@ -180,7 +180,7 @@
             checkButton: function () {
 
                 // DEVE USAR O MÉTODO toggleDone do objeto correto
-                Task().toggleDone()
+                Task(toggleDone(this.checkButton))
 
 	            renderTasks()
             }
