@@ -15,23 +15,30 @@
 	function Task(name, completed, createdAt, updatedAt){
 
         let _name = name
-        let obj = {
-            _name,
-            completed: false,
-            createdAt: new Date(),
-            updatedAt: null
-        }
+        this.completed = completed || false,
+        this.createAt = createdAt || Date.now()
+
+        // this.name = name
+        // this.completed = completed || false
+        // this.createAt = createdAt || Date.now()
         
+
         this.getName = function () {
-            if (name == "str") {
+            if (typeof name == 'string') {
                 return _name
+            }
+        }
+        this.setName = function (newName) {
+            if (typeof newName == 'string') {
+                _name = newName
+                this.updatedAt = Date.now()
             }
         }
 
         // o objeto retornado por essa funcao deve ter um método chamado toggleDone, que deve inverter o boolean completed
 
         this.toggleDone = function () {
-            obj.completed = !completed
+            this.completed = !this.completed
         }
 	}
 
@@ -58,7 +65,10 @@
 
     // a partir de um array de objetos literais, crie um array contendo instancias de Tasks. 
     // Essa array deve chamar arrInstancesTasks
-	const arrInstancesTasks = arrTasks.map(item => new Task(item.name))
+	const arrInstancesTasks = arrTasks.map(task => {
+        const {name, completed, createdAt, updatedAt} = task
+        return new Task(name, completed, createdAt, updatedAt)
+    })
     console.log(arrInstancesTasks)
 
 
@@ -88,7 +98,7 @@
         li.appendChild(checkButton)
 
         p.className = "task-name"
-        p.textContent = obj.name
+        p.textContent = obj.getName()
         li.appendChild(p)
 
         editButton.className = "fas fa-edit"
@@ -101,7 +111,7 @@
         const inputEdit = document.createElement("input")
         inputEdit.setAttribute("type", "text")
         inputEdit.className = "editInput"
-        inputEdit.value = obj.name
+        inputEdit.value = obj.getName()
 
         containerEdit.appendChild(inputEdit)
         const containerEditButton = document.createElement("button")
@@ -133,11 +143,10 @@
         });
     }
 
-    function addTask(task) {
+    function addTask(taskName) {
         // adicione uma nova instancia de Task
-        
+        arrInstancesTasks.push(new Task(taskName))
         renderTasks()
-
     }
 
     function clickedUl(e) {
@@ -170,17 +179,17 @@
             },
             containerEditButton: function () {
                 const val = currentLi.querySelector(".editInput").value
-                arrInstancesTasks[currentLiIndex].name = val
+                arrInstancesTasks[currentLiIndex].setName(val)
                 renderTasks()
             },
             containerCancelButton: function () {
                 currentLi.querySelector(".editContainer").removeAttribute("style")
-                currentLi.querySelector(".editInput").value = arrInstancesTasks[currentLiIndex].name
+                currentLi.querySelector(".editInput").value = arrInstancesTasks[currentLiIndex].getName()
             },
             checkButton: function () {
 
                 // DEVE USAR O MÉTODO toggleDone do objeto correto
-                Task(toggleDone(this.checkButton))
+                arrInstancesTasks[currentLiIndex].toggleDone()
 
 	            renderTasks()
             }
