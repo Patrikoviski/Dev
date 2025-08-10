@@ -111,8 +111,6 @@
         }
     }
 
-    // nao consegui fazer funcionar :p
-
     function renderTasks() {
         ul.innerHTML = ""
         arrInstancesTasks.forEach(taskObj => {
