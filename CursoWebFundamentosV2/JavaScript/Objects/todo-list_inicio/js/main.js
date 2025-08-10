@@ -100,13 +100,16 @@
         return li
     }
 
-    // function adjustContainerPadding() {
-    //     if (arrInstancesTasks.length === 0) {
-    //         container.forEach(element => element.style.padding = "0")
-    //     } else {
-    //         container.forEach(element => element.style.padding = "2rem")
-    //     }
-    // }
+    function adjustContainerPadding() {
+        const container = document.getElementsByClassName("todo-list__container");
+        const containerArray = Array.from(container);
+
+        if (arrInstancesTasks.length === 0) {
+            containerArray.forEach(element => element.style.padding = "0");
+        } else {
+            containerArray.forEach(element => element.style.padding = "2rem");
+        }
+    }
 
     // nao consegui fazer funcionar :p
 
@@ -115,7 +118,7 @@
         arrInstancesTasks.forEach(taskObj => {
             ul.appendChild(generateLiTask(taskObj))
         });
-        // adjustContainerPadding()
+        adjustContainerPadding()
     }
 
     function addTask(taskName) {
