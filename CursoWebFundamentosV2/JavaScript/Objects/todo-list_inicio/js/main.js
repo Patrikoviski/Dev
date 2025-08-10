@@ -2,27 +2,12 @@
     "use strict"
 
 
-
-    // ✓   crie uma funcao construtora chamada Task.
-    // ✓   essa funcao recebe por parametro obrigatório o nome da tarefa
-    // ✓   também recebe tres parametros opcionais (completed, createdAt, updatedAt)
-    //  ✓  o objeto retornado por essa funcao deve ter quatro propriedades:
-    //  ✓  - name - string - obrigatório, 
-    //  ✓  - completed - boolean - opcional, false é o default, 
-    //  ✓  - createdAt - timestamp - opcional, timestamp atual é o valor default) 
-    //  ✓  - updatedAt - timestamp - opcional, null é o valor default
-
 	function Task(name, completed, createdAt, updatedAt){
 
         let _name = name
         this.completed = completed || false,
         this.createAt = createdAt || Date.now()
-
-        // this.name = name
-        // this.completed = completed || false
-        // this.createAt = createdAt || Date.now()
         
-
         this.getName = function () {
             if (typeof name == 'string') {
                 return _name
@@ -35,36 +20,14 @@
             }
         }
 
-        // o objeto retornado por essa funcao deve ter um método chamado toggleDone, que deve inverter o boolean completed
 
         this.toggleDone = function () {
             this.completed = !this.completed
         }
 	}
 
-	let arrTasks = [
-		{
-			name: "task 1",
-			completed: true,
-			createdAt: 1592667375012,
-			updatedAt: null
-		},
-		{
-			name: "task 2",
-			createdAt: 1581667345723,
-			updatedAt: 1592667325018
-		},
-		{
-			name: "task 3",
-			completed: true,
-			createdAt: 1592667355018,
-			updatedAt: 1593677457010
-		}
-	]
+	let arrTasks = []
 
-
-    // a partir de um array de objetos literais, crie um array contendo instancias de Tasks. 
-    // Essa array deve chamar arrInstancesTasks
 	const arrInstancesTasks = arrTasks.map(task => {
         const {name, completed, createdAt, updatedAt} = task
         return new Task(name, completed, createdAt, updatedAt)
@@ -78,6 +41,7 @@
     const todoAddForm = document.getElementById("todo-add")
     const ul = document.getElementById("todo-list")
     const lis = ul.getElementsByTagName("li")
+    const container = document.getElementsByClassName("todo-list__container")
 
 
     function generateLiTask(obj) {
@@ -136,18 +100,29 @@
         return li
     }
 
+    // function adjustContainerPadding() {
+    //     if (arrInstancesTasks.length === 0) {
+    //         container.forEach(element => element.style.padding = "0")
+    //     } else {
+    //         container.forEach(element => element.style.padding = "2rem")
+    //     }
+    // }
+
+    // nao consegui fazer funcionar :p
+
     function renderTasks() {
         ul.innerHTML = ""
         arrInstancesTasks.forEach(taskObj => {
             ul.appendChild(generateLiTask(taskObj))
         });
+        // adjustContainerPadding()
     }
 
     function addTask(taskName) {
-        // adicione uma nova instancia de Task
         arrInstancesTasks.push(new Task(taskName))
         renderTasks()
     }
+
 
     function clickedUl(e) {
         const dataAction = e.target.getAttribute("data-action")
@@ -188,7 +163,6 @@
             },
             checkButton: function () {
 
-                // DEVE USAR O MÉTODO toggleDone do objeto correto
                 arrInstancesTasks[currentLiIndex].toggleDone()
 
 	            renderTasks()
