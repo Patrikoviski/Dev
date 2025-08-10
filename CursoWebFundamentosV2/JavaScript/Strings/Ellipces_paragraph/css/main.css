@@ -1,0 +1,52 @@
+body {
+    background-color: brown;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    font-size: 36px;
+    color: white;
+}
+
+/* .main-section {
+    width: 100%;
+} */
+
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    padding: 16px;
+    
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 1.2px;
+}
+
+
+
+.arrow-icon {
+    height: 100px;
+    overflow: hidden;
+}
