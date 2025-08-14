@@ -9,10 +9,6 @@ setTimeout(function(){
     console.log(finalTime - startTime)
 }, 2000)
 
-for (i = 0; i < 1000; i++) {
-    str += `${i} --`
-    doc.textContent += str
-}
 
 const interval = setInterval(function(){
     console.log(`interval number: ${number++}`)
