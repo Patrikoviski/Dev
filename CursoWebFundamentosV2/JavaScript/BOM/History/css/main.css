@@ -1,0 +1,25 @@
+body {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.buttons button {
+    color: white;
+    background-color: rgb(250, 148, 148);
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    padding: 6px 16px;
+}
+
+.buttons button:hover {
+    background-color: rgb(247, 125, 125);
+    cursor: pointer;
+}
