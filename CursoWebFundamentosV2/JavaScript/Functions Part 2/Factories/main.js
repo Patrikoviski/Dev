@@ -18,7 +18,7 @@ function createDog(name){
             }
             return this
         },
-        getPosition(){
+        get getPosition(){
             console.log(`Actual ${this.name} position is ${position}`)
             return position
         }
@@ -26,7 +26,7 @@ function createDog(name){
 }
 
 console.log("-----------------------")
-rex.walk(10).walk(5).getPosition()
+rex.walk(10).walk(5).getPosition
 console.log("-----------------------")
-toto.walk(20).walk(-3).walk(-17).getPosition()
+toto.walk(20).walk(-3).walk(-17).getPosition
 console.log("-----------------------")
