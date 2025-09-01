@@ -33,7 +33,7 @@ class Cart{
 
     removeItem(name){
         const index = this.#getIndex(name)
-        if (index !== -1) {
+        if (index >= 0) {
             this.#items.splice(index, 1)
         }
         return index
@@ -45,7 +45,7 @@ class Cart{
 
 
     get items(){
-        return console.log(this.#items)
+        return Array.from(this.#items)
     }
 }
 
@@ -55,10 +55,13 @@ let cart = new Cart()
 cart.addItem("iphone 16 pro max")
 cart.addItem("RTX 4090")
 cart.addItem("logitech G403 HERO")
-cart.items
+console.log(cart.items)
 cart.removeItem("RTX 4090")
 cart.items
+console.log(cart.items)
 cart.removeItem("iphone 16 pro max")
 cart.items
+console.log(cart.items)
 cart.removeItem("logitech G403 HERO")
 cart.items
+console.log(cart.items)
