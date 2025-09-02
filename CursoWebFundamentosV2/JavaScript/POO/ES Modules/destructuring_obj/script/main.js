@@ -33,3 +33,13 @@ let {name: name2, ...rest} = people2
 
 console.log(name2)
 console.log(rest)
+
+function hello({name, lastname}){
+    const fullName = lastname ? `${name} ${lastname}` : name
+    return `Hello ${fullName}, how are you?`
+}
+
+const people3 = {name: "John", age: 40}
+
+console.log(hello({name: "Jose", lastname: "Bezerra"}))
+console.log(hello(people3))
