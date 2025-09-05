@@ -1,28 +1,27 @@
-let cep = document.querySelector("#cep")
-let logradouro = document.querySelector("#logradouro")
-let bairro = document.querySelector("#bairro")
-let cidade = document.querySelector("#localidade")
-let uf = document.querySelector("#uf")
+let cep = document.getElementById("cep")
+let logradouro = document.getElementById("logradouro")
+let bairro = document.getElementById("bairro")
+let cidade = document.getElementById("localidade")
+let uf = document.getElementById("uf")
 
 //  viacep.com.br/ws/cep/json/
 
+cep.addEventListener("input", cepSearch)
+
 function showCEP(data){
-    data.forEach(element => {
-        logradouro = element.logradouro
-        bairro = element.bairro
-        cidade = element.cidade
-        uf = element.uf
-    })
-    
+    logradouro.value = data.logradouro
+    bairro.value = data.bairro
+    cidade.value = data.localidade
+    uf.value = data.uf
 }
 
 async function cepSearch(){
     try{
-        const answer = await fetch(`viacep.com.br/ws/${cep.value}/json/`)
+        const answer = await fetch(`https://viacep.com.br/ws/${cep.value}/json/`)
         if(!answer.ok){
             throw Error("requisition error")
         }
-        const data = answer.json()
+        const data = await answer.json()
         showCEP(data)
     } catch(e){
         console.log(`Error: ${e}`)
