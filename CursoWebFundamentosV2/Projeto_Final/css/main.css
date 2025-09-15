@@ -1,9 +1,13 @@
+:root {
+    --white-color: #fff;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
-    color: white;
+    color: var(--white-color);
     line-height: 1.4;
     background-color: black;
     font-size: 1.6rem;
@@ -18,10 +22,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    align-items: center;
 }
 
 .logo {
+    display: block;
     color: yellow;
     text-shadow: 1px 1px 3px rgb(165, 165, 165);
     text-decoration: none;
@@ -34,18 +38,27 @@ body {
     gap: 16px;
 }
 
-.nav-list a {
+.nav-list li a {
+    display: block;
     color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
-    transition: all .3s;
 }
 
-.nav-list a:hover {
-    color: white;
+.nav-list li {
+    position: relative;
+}
+
+.nav-list li a {
+    display: inline-block;
+    transition: .3s ease;
+}
+
+.nav-list li a:hover {
+    color: var(--white-color);
     background-color: rgba(0 0 0 / .3);
     padding: 16px;
-    font-size: 2.0rem;
+    transform: scale(1.2);
 }
 
 .hero-banner {
@@ -66,6 +79,7 @@ body {
     background-color: #ccc;
     padding: 16px;
     text-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px black;
 }
 
 .hero-content {
@@ -75,12 +89,29 @@ body {
     padding: 10px;
 }
 
+.triangle {
+    position: relative;
+    transform: rotateZ(45deg);
+    background-color: var(--white-color);
+    top: 20px;
+    left: 43%;
+    width: 200px;
+    height: 200px;
+}
+
+.carousel {
+    position: relative;
+    background-color: var(--white-color);
+    box-shadow: 1px 1px 5px black;
+}
+
 #hero-link {
-    color: white;
+    color: var(--white-color);
     background-color: rgba(0 0 0 / .5);
     text-decoration: none;
     margin-top: 26px;
     padding: 16px;
+    box-shadow: 1px 1px 5px black;
 }
 
 #hero-link:hover {
