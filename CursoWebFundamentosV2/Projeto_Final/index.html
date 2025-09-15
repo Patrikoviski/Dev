@@ -3,128 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS - Normalize/font-size.css">
+    <link rel="stylesheet" href="../CSS - Normalize/normalize.css">
+    <link rel="stylesheet" href="../CSS - Normalize/reset.css">
+    <link rel="stylesheet" href="../CSS - Normalize/reset2.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="script/main.js" defer></script>
     <title>Infusion</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">Infusion</a>
+    <header class="header">
+        <div class="flex-header">
 
-        <button>Menu</button>
-
-        <nav>
-            <ul>
-                <li><a href="#">design folio</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">our business</a></li>
-                <li><a href="#">how we help</a></li>
-                <li><a href="#">take the tour</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
+            <a href="index.html" class="logo">Infusion</a>
+    
+            <button style="display: none;">Menu</button>
+    
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li><a href="#">design folio</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">our business</a></li>
+                    <li><a href="#">how we help</a></li>
+                    <li><a href="#">take the tour</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
         
     </header>
 
-    <section>
-        <h1>Cutting edge <abbr title="Wordpress">WP</abbr> business theme</h1>
-        <p>Gutful of bottlo no dramas he's got a massive hooroo.</p>
-        <a href="#">Buy it now</a>
-    </section>
 
-    <section>
-        <article>
-            <img src="assets/c01.jpg" alt="Carousel img">
+    <main>
 
+        <section class="hero-banner">
+            <h1 class="hero-title">Cutting edge <abbr title="Wordpress">WP</abbr> business theme</h1>
+            <p class="hero-content">Gutful of bottlo no dramas he's got a massive hooroo.</p>
+            <a href="#" id="hero-link">Buy it now</a>
+        </section>
+    
+        <section>
+            <article>
+                <img src="assets/c01.jpg" alt="Carousel img">
+    
+                <div>
+                    <img src="assets/teamsprite_01.png" alt="Carousel img">
+                </div>
+                <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequuntur dignissimos fugit saepe quasi! Assumenda facere odit maiores ducimus!</p>
+                </div>
+            </article>
+            <article>
+                <img src="assets/c02.jpg" alt="Carousel img">
+    
+                <div>
+                    <img src="assets/teamsprite_02.png" alt="Carousel img">
+                </div>
+                <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequuntur dignissimos fugit saepe quasi! Assumenda facere odit maiores ducimus!</p>
+                </div>
+            </article>
+            <article>
+                <img src="assets/c03.jpg" alt="Carousel img">
+    
+                <div>
+                    <img src="assets/teamsprite_03.png" alt="Carousel img">
+                </div>
+                <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequuntur dignissimos fugit saepe quasi! Assumenda facere odit maiores ducimus!</p>
+                </div>
+            </article>
+            <article>
+                <img src="assets/c04.jpg" alt="Carousel img">
+    
+                <div>
+                    <img src="assets/teamsprite_04.png" alt="Carousel img">
+                </div>
+                <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequuntur dignissimos fugit saepe quasi! Assumenda facere odit maiores ducimus!</p>
+                </div>
+            </article>
+        </section>
+    
+        <section>
+    
+            <article>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores facere, molestias saepe deserunt autem laborum a aliquam dicta eligendi vero?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta possimus repellat sequi inventore pariatur quasi eum eos! Totam eius labore maxime ratione sunt magnam, at tempore, itaque deserunt autem provident.</p>
+                <a href="#">BUTTON</a>
+                <a href="#">BUTTON</a>
+            </article>
+    
+            <article>
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dolorem illum autem delectus quisquam aliquam dignissimos natus quibusdam quidem. Optio!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ullam voluptas ab facere corporis exercitationem ad autem cupiditate quia velit! Enim mollitia consequuntur assumenda eveniet aliquid necessitatibus modi distinctio earum?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate a quod dolorum earum reiciendis laudantium, sit aperiam assumenda harum ipsum inventore.</p>
+            </article>
+        </section>
+    
+        <section>
+            <h2>Latest Articles</h2>
+    
             <div>
-                <img src="assets/teamsprite_01.png" alt="Carousel img">
+                <a href="#"><img src="assets/articles/01.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/02.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/03.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/04.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/05.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/06.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/07.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/08.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/09.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/10.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/11.jpg" alt=""></a>
+                <a href="#"><img src="assets/articles/12.jpg" alt=""></a>
             </div>
-            <div>
-                <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequuntur dignissimos fugit saepe quasi! Assumenda facere odit maiores ducimus!</p>
-            </div>
-        </article>
-    </section>
-
-    <section>
-
-        <article>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores facere, molestias saepe deserunt autem laborum a aliquam dicta eligendi vero?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta possimus repellat sequi inventore pariatur quasi eum eos! Totam eius labore maxime ratione sunt magnam, at tempore, itaque deserunt autem provident.</p>
-            <a href="#">BUTTON</a>
-            <a href="#">BUTTON</a>
-        </article>
-
-        <article>
-            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dolorem illum autem delectus quisquam aliquam dignissimos natus quibusdam quidem. Optio!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ullam voluptas ab facere corporis exercitationem ad autem cupiditate quia velit! Enim mollitia consequuntur assumenda eveniet aliquid necessitatibus modi distinctio earum?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate a quod dolorum earum reiciendis laudantium, sit aperiam assumenda harum ipsum inventore.</p>
-        </article>
-    </section>
-
-    <section>
-        <h2>Latest Articles</h2>
-
+        </section>
+    
         <div>
-            <a href="#"><img src="assets/articles/01.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/02.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/03.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/04.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/05.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/06.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/07.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/08.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/09.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/10.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/11.jpg" alt=""></a>
-            <a href="#"><img src="assets/articles/12.jpg" alt=""></a>
+            <div>
+                <figure><img src="assets/slider/slide-01.png" alt=""></figure>
+                <figure><img src="assets/slider/slide-02.png" alt=""></figure>
+                <figure><img src="assets/slider/slide-01.png" alt=""></figure>
+                <figure><img src="assets/slider/slide-02.png" alt=""></figure>
+                <span class="prev"><i class="fas fa-angle-left fa-4x"></i></span>
+                <span class="next"><i class="fas fa-angle-left fa-4x"></i></span>
+            </div>
         </div>
-    </section>
-
-    <div>
-        <div>
-            <figure><img src="assets/slider/slide-01.png" alt=""></figure>
-            <figure><img src="assets/slider/slide-02.png" alt=""></figure>
-            <figure><img src="assets/slider/slide-01.png" alt=""></figure>
-            <figure><img src="assets/slider/slide-02.png" alt=""></figure>
+    
+        <section>
+    
+            <div>
+                <figure>
+                    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam maiores minima sapiente laboriosam repellat error.</h2>
+                    <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+                </figure>
+                <figure>
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex saepe cupiditate fuga. Dolores, officiis quas!</h2>
+                    <figcaption>Lorem ipsum dolor sit.</figcaption>
+                </figure>
+            </div>
+    
             <span class="prev"><i class="fas fa-angle-left fa-4x"></i></span>
             <span class="next"><i class="fas fa-angle-left fa-4x"></i></span>
-        </div>
-    </div>
+    
+        </section>
+    
+        <footer>
+            <h2>Infusion</h2>
+    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ut ab sapiente veniam, reprehenderit dolorum atque soluta consequatur dolor suscipit sint dignissimos necessitatibus consectetur mollitia, quo, incidunt quidem ipsa in.</p>
+    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium inventore enim facere, commodi eos nulla ipsum? Dolores sint esse quasi!</p>
+    
+            <ul>
+                <li><a href="#">List One</a></li>
+                <li><a href="#">Page Two</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </footer>
 
-    <section>
+    </main>
 
-        <div>
-            <figure>
-                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam maiores minima sapiente laboriosam repellat error.</h2>
-                <figcaption>Lorem ipsum dolor sit amet.</figcaption>
-            </figure>
-            <figure>
-                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex saepe cupiditate fuga. Dolores, officiis quas!</h2>
-                <figcaption>Lorem ipsum dolor sit.</figcaption>
-            </figure>
-        </div>
-
-        <span class="prev"><i class="fas fa-angle-left fa-4x"></i></span>
-        <span class="next"><i class="fas fa-angle-left fa-4x"></i></span>
-
-    </section>
-
-    <footer>
-        <h2>Infusion</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ut ab sapiente veniam, reprehenderit dolorum atque soluta consequatur dolor suscipit sint dignissimos necessitatibus consectetur mollitia, quo, incidunt quidem ipsa in.</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium inventore enim facere, commodi eos nulla ipsum? Dolores sint esse quasi!</p>
-
-        <ul>
-            <li><a href="#">List One</a></li>
-            <li><a href="#">Page Two</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </ul>
-    </footer>
 
 </body>
 </html>
