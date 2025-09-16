@@ -1,5 +1,6 @@
 :root {
-    --white-color: #fff;
+    --black-color: black;
+    --white-color: white;
 }
 
 html {
@@ -9,7 +10,7 @@ html {
 body {
     color: var(--white-color);
     line-height: 1.4;
-    background-color: black;
+    background-color: var(--black-color);
     font-size: 1.6rem;
 }
 
@@ -52,12 +53,12 @@ body {
 .nav-list li a {
     display: inline-block;
     transition: .3s ease;
+    padding: 16px;
 }
 
 .nav-list li a:hover {
     color: var(--white-color);
     background-color: rgba(0 0 0 / .3);
-    padding: 16px;
     transform: scale(1.2);
 }
 
@@ -76,33 +77,74 @@ body {
 .hero-title {
     width: 70%;
     text-align: center;
+    color: var(--black-color);
     background-color: #ccc;
     padding: 16px;
-    text-shadow: 1px 1px 5px black;
-    box-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 5px var(--black-color);
+    box-shadow: 1px 1px 5px var(--black-color);
 }
 
 .hero-content {
     width: 60%;
-    background-color: black;
+    color: var(--white-color);
+    background-color: var(--black-color);
     text-align: center;
     padding: 10px;
 }
 
 .triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent; 
+    border-right: 100px solid transparent; 
+    border-bottom: 100px solid black;
     position: relative;
+    top: -25px; 
+    margin: 0 auto; 
+
+
+    /* position: relative;
     transform: rotateZ(45deg);
-    background-color: var(--white-color);
+    background-color: var(--black-color);
     top: 20px;
     left: 43%;
     width: 200px;
     height: 200px;
+    z-index: 2; */
 }
 
 .carousel {
     position: relative;
-    background-color: var(--white-color);
-    box-shadow: 1px 1px 5px black;
+    background-color: var(--black-color);
+    box-shadow: 1px -5px 5px rgba(255 255 255 / .4);
+}
+
+.carousel-content {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px white;
+}
+
+.card > img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.profile-picture img {
+    position: relative;
+    top: -50px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.carousel-text {
+    padding: 16px;
 }
 
 #hero-link {
@@ -115,7 +157,7 @@ body {
 }
 
 #hero-link:hover {
-    color: black;
-    background-color: rgba(255, 255, 255, 0.3);
+    color: var(--black-color);
+    background-color: rgba(255, 255, 255, 0.4);
     filter: drop-shadow(-1px 1px);
 }
