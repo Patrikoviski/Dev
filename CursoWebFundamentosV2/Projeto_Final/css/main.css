@@ -141,7 +141,6 @@ body {
 .card:hover {
     transform: translateY(-15px);
     box-shadow: 2px 2px 5px #00C7AE;
-    /* border: 4px solid #777777; */
 }
 
 .card > img {
@@ -153,7 +152,6 @@ body {
 
 .card:hover .profile-picture img{
     transform: translateY(-88px);
-    
 }
 
 .profile-picture {
@@ -181,13 +179,17 @@ body {
 
 .content-buttons {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+
     gap: 46px;
-    margin-top: 100px;
-    padding-top: 100px;
+    margin: 100px 0;
+    padding: 100px;
+
+    color: #00C7AE;
+    background-color: rgba(255 255 255 / .1);
     border-top: 1px solid #00C7AE;
+    border-bottom: 1px solid #00C7AE;
 }
 
 .content-buttons article {
@@ -231,6 +233,62 @@ body {
     box-shadow: none;
     background-color: #637279;
     border: 1px solid #637279;
+}
+
+.galery {
+    width: 100%;
+}
+
+.galery h2 {
+    width: 100%;
+    color: white;
+    background-color: #00C7AE;
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.galery div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    grid: 0;
+}
+
+.galery div a img {
+    width: 100%;
+    display: block;
+    transition: transform .2s ease-in;
+}
+
+.galery div a img:hover {
+    transform: scale(1.1);
+}
+
+.laptop-slider {
+    background-color: #242a2c;
+    padding: 125px 0 100px;
+    width: 100%;
+    overflow: auto;
+}
+
+.slideshow {
+    white-space: nowrap;
+}
+
+.slideshow figure {
+    display: inline-block;
+}
+
+.slideshowJS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev i, .next i {
+    cursor: pointer;
 }
 
 #hero-link {
