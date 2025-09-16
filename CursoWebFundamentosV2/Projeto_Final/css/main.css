@@ -62,6 +62,10 @@ body {
     transform: scale(1.2);
 }
 
+.container {
+    padding: 16px;
+}
+
 .hero-banner {
     display: flex;
     flex-direction: column;
@@ -127,24 +131,106 @@ body {
 }
 
 .card {
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
-    box-shadow: 1px 1px 5px white;
+    transition: .2s ease;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 2px 2px 5px #00C7AE;
+    /* border: 4px solid #777777; */
 }
 
 .card > img {
     border-radius: 5px 5px 0 0;
+    box-shadow: 1px 1px 5px black;
     width: 100%;
+    
 }
 
-.profile-picture img {
-    position: relative;
-    top: -50px;
-    display: flex;
-    margin: 0 auto;
+.card:hover .profile-picture img{
+    transform: translateY(-88px);
+    
+}
+
+.profile-picture {
+    width: 88px;
+    height: 88px;
+    margin: -55px auto;
+    overflow: hidden;
 }
 
 .carousel-text {
+    text-align: center;
+    padding: 55px 25px 10px;
+}
+
+.carousel-text h2 {
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+
+.carousel-text p {
+    color: #00C7AE;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.8rem;
+}
+
+.content-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 46px;
+    margin-top: 100px;
+    padding-top: 100px;
+    border-top: 1px solid #00C7AE;
+}
+
+.content-buttons article {
+    width: 70%;
+}
+
+.content-buttons article h3 {
+    font-size: 2.6rem;
+}
+
+.content-buttons article p {
+    font-size: 1.8rem;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.generic-button {
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
     padding: 16px;
+    box-shadow: 1px 1px 5px white;
+}
+
+.left-button {
+    border: 1px solid #00C7AE;
+    background-color: #00C7AE;
+}
+
+.right-button {
+    border: 1px solid #445157;
+    background-color: #445157;
+}
+
+.generic-button:hover {
+    box-shadow: none;
+    background-color: #637279;
+    border: 1px solid #637279;
 }
 
 #hero-link {
