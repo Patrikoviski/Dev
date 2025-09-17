@@ -291,6 +291,29 @@ body {
     cursor: pointer;
 }
 
+.quote-slideshow {
+    background-color: #63c6ae;
+    padding: 50px 0;
+    border-bottom: 12px solid #58b9a1;
+    text-align: center;
+}
+
+.quote-slideshow h2 {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.quote-slideshow figcaption {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.no-js .quote-slideshow figure + figure {
+    margin-top: 5em;
+}
+
 #hero-link {
     color: var(--white-color);
     background-color: rgba(0 0 0 / .5);
