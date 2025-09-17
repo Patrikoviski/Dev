@@ -1,6 +1,18 @@
 document.querySelector(".no-js").remove
-document.querySelector("span").style = "display: block;"
+document.body.classList = "js"
+document.querySelector("span").style = ""
 let slideshow = document.querySelector(".slideshow")
+let quote_slideshow = document.querySelector(".quote-slideshow")
+let quote_slideshow_01 = `<figure style="width: 70%;">
+                    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam maiores minima sapiente laboriosam repellat error.</h2>
+                    <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+                </figure>`
+let quote_slideshow_02 = `<figure>
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex saepe cupiditate fuga. Dolores, officiis quas!</h2>
+                    <figcaption>Lorem ipsum dolor sit.</figcaption>
+                </figure>`           
+
+quote_slideshow.innerHTML = `<span class="prev"><i class="fas fa-angle-left"></i></span>${quote_slideshow_01}<span class="next"><i class="fas fa-angle-right "></i></span>`
 
 
 function nextSlide() {

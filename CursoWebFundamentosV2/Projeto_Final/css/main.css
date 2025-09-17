@@ -296,6 +296,7 @@ body {
     padding: 50px 0;
     border-bottom: 12px solid #58b9a1;
     text-align: center;
+    text-shadow: 1px 1px 5px black;
 }
 
 .quote-slideshow h2 {
@@ -312,6 +313,14 @@ body {
 
 .no-js .quote-slideshow figure + figure {
     margin-top: 5em;
+}
+
+
+.js .quote-slideshow {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 55vh;
 }
 
 #hero-link {
