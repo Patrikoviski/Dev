@@ -353,9 +353,11 @@ body {
     padding: 0 50px;
     color: white;
 }
+
 .js .quote-slideshow figure h2{
     margin-top: 0;
 }
+
 .js .quote-slideshow figure{
     opacity: 0;
     transition: 1s opacity;
@@ -366,20 +368,24 @@ body {
     box-sizing: border-box;
     margin: 0;
 }
+
 .js .quote-slideshow figure.show{
     opacity: 1;
     position: static;
     
 }
+
 .js .quote-slideshow .prev, .js .quote-slideshow .next{
     z-index: 3;
     position: absolute;
     top: 50%;
     cursor: pointer;
 }
+
 .js .quote-slideshow .prev{
     left: 10px;
 }
+
 .js .quote-slideshow .next{
     right: 10px;
 }
