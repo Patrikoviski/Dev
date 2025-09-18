@@ -251,7 +251,7 @@ body {
 
 .galery div {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-rows: auto;
     grid: 0;
 }
@@ -273,23 +273,51 @@ body {
     overflow: auto;
 }
 
-.slideshow {
-    white-space: nowrap;
+.js .laptop-slider{
+    overflow: hidden;
+    color: white;
 }
 
-.slideshow figure {
-    display: inline-block;
+.js .laptop-slider .slideshow{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 950px;
 }
 
-.slideshowJS {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.js .laptop-slider figure{
+    opacity: 0;
+    transition: 1s opacity;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.js .laptop-slider figure.show{
+    opacity: 1;
+    position: static;
+    
+}
+
+.js .laptop-slider .prev, .js .laptop-slider .next{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.js .laptop-slider .prev{
+    left: 10px;
+}
+.js .laptop-slider .next{
+    right: 10px;
 }
 
 .prev i, .next i {
     cursor: pointer;
 }
+
 
 .quote-slideshow {
     background-color: #63c6ae;
@@ -313,14 +341,86 @@ body {
 
 .no-js .quote-slideshow figure + figure {
     margin-top: 5em;
+
+
+
+.js .quote-slideshow{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 950px;
+    box-sizing: border-box;
+    padding: 0 50px;
+    color: white;
+}
+.js .quote-slideshow figure h2{
+    margin-top: 0;
+}
+.js .quote-slideshow figure{
+    opacity: 0;
+    transition: 1s opacity;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.js .quote-slideshow figure.show{
+    opacity: 1;
+    position: static;
+    
+}
+.js .quote-slideshow .prev, .js .quote-slideshow .next{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.js .quote-slideshow .prev{
+    left: 10px;
+}
+.js .quote-slideshow .next{
+    right: 10px;
 }
 
+.footer {
+    background-color: #242a2c;
+    padding: 50px 0 250px;
+    color: #454e51;
+}
 
-.js .quote-slideshow {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    min-height: 55vh;
+.footer p {
+    width: 20%;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links a {
+    color: #454e51;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+
+#directs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+#directs strong {
+    font-weight: 600;
 }
 
 #hero-link {

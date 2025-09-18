@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../CSS - Normalize/reset2.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/9a0be563e3.js" crossorigin="anonymous"></script>
+    <script src="script/carousel.js" defer></script>
     <script src="script/main.js" defer></script>
     <title>Infusion</title>
 </head>
@@ -153,27 +154,32 @@
                     <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex saepe cupiditate fuga. Dolores, officiis quas!</h2>
                     <figcaption>Lorem ipsum dolor sit.</figcaption>
                 </figure>
+                <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
+                <span class="next" style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
+        
             </div>
-    
-            <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
-            <span class="next" style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
     
         </section>
     
-        <footer>
-            <h2>Infusion</h2>
-    
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ut ab sapiente veniam, reprehenderit dolorum atque soluta consequatur dolor suscipit sint dignissimos necessitatibus consectetur mollitia, quo, incidunt quidem ipsa in.</p>
-    
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium inventore enim facere, commodi eos nulla ipsum? Dolores sint esse quasi!</p>
-    
-            <ul>
-                <li><a href="#">List One</a></li>
-                <li><a href="#">Page Two</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-            </ul>
+        <footer class="footer">
+            <div class="container flex-footer">
+
+                <h2>Infusion</h2>
+        
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ut ab sapiente veniam, reprehenderit dolorum atque soluta consequatur dolor suscipit sint dignissimos necessitatibus consectetur mollitia, quo, incidunt quidem ipsa in.</p>
+        
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium inventore enim facere, commodi eos nulla ipsum? Dolores sint esse quasi!</p>
+        
+                <ul class="footer-links">
+                    <li><a href="#">List One</a></li>
+                    <li><a href="#">Page Two</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+
+            <span id="directs"><p>all directs reserved <strong>@patrikoviski</strong></p></span>
         </footer>
 
     </main>
