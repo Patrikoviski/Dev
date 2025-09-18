@@ -307,9 +307,11 @@ body {
     top: 50%;
     cursor: pointer;
 }
+
 .js .laptop-slider .prev{
     left: 10px;
 }
+
 .js .laptop-slider .next{
     right: 10px;
 }
@@ -342,14 +344,12 @@ body {
 .no-js .quote-slideshow figure + figure {
     margin-top: 5em;
 
-
+}
 
 .js .quote-slideshow{
     position: relative;
     width: 100%;
     margin: auto;
-    max-width: 950px;
-    box-sizing: border-box;
     padding: 0 50px;
     color: white;
 }
