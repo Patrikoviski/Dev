@@ -1,0 +1,66 @@
+:root {
+    --page-bg: #0B090D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    background: var(--page-bg) linear-gradient(to bottom, #1D0738ff, #1D073800) fixed;
+}
+
+
+.logoicon {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1D0738;
+    padding: 16px;
+}
+
+.nav-menu ul {
+    text-align: right;
+}
+
+.nav-menu li {
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.nav-menu ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.logoicon__logo img {
+    width: 30%;
+}
+
+.testimonials__rating img {
+    width: 100%;
+}
+
+.container {
+    margin: 0 25px;
+}
+
+.card img {
+    width: 100%;
+}
