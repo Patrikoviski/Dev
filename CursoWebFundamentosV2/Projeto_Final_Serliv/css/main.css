@@ -214,12 +214,27 @@ section {
     text-decoration: none;
 }
 
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .testimonials__rating {
     display: flex;
-    width: 100%;
-    margin: 26px 0;
-    gap: 5px;
-    overflow: auto;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-bottom: 1rem;
+    padding-right: 4rem;
+
+    scroll-snap-type: x mandatory;
+
+    img {
+        margin-left: 1rem;
+        width: calc(100vw - 1rem) * 2;
+        flex: 0 0 calc(100vw - 1rem) * 2;
+        scroll-snap-align: center;
+    }
 }
 
 .ebooks {
@@ -253,12 +268,49 @@ section {
 
 .ebooks__description-content {
     font-weight: 200;
+    margin-bottom: 50px;
 }
 
 .ebooks__buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    align-items: center;
+    gap: 16px;
     margin: 0 auto;
+}
+
+.button-transparent-border-none {
+    background-color: transparent;
+    border: none;
+}
+
+.button-transparent-border-none a {
+    color: red;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.padding-button-transparent {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.channels {
+    margin: 50px 0;
+    padding: 26px;
+    border: none;
+    background-image: url(../assets/bg-news-mob.jpg);
+}
+
+.channels__content {
+    text-align: center;
+    padding: 26px;
+    font-size: 2.0rem;
+}
+
+.channels__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
