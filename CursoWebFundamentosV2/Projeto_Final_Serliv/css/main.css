@@ -23,7 +23,7 @@ body {
 }
 
 section {
-    margin-bottom: 20.0rem;
+    margin-bottom: 10.0rem;
 }
 
 
@@ -373,4 +373,16 @@ main {
     *::-webkit-scrollbar-thumb {
         background-color: #EE3231;
     }
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 26px;
+    gap: 16px;
+}
+
+.contact__links {
+    display: flex;
+    justify-content: space-between;
 }
