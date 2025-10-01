@@ -26,10 +26,17 @@ section {
     margin-bottom: 10.0rem;
 }
 
+.header-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, #1D0738ff 80%, #1D073800);
+}
+
 .logoicon {
     display: flex;
     justify-content: space-between;
-    background-color: #1D0738;
+    /* background-color: #1D0738; */
     padding: 16px;
 }
 
@@ -242,12 +249,11 @@ section {
     gap: 2rem;
 }
 
-.testimonials__rating {
+.testimonials__rating--wrapper {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
     padding-bottom: 1rem;
-    padding-right: 4rem;
     align-items: center;
 
     scroll-snap-type: x mandatory;

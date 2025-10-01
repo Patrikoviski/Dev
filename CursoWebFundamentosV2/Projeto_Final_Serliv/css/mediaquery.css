@@ -1,19 +1,25 @@
 @media (width >= 64em){
+    body {
+        background: #0B090D linear-gradient(to bottom, #1D0738ff, #1D073800 50%) no-repeat;
+        background-size: 100% 100vh;
+    }
+
     main {
         margin-top: 50px;
     }
-
 
     .header-sticky {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 36px;
         gap: 16px;
     }
 
     .logoicon {
         text-align: center;
+        padding: 0;
 
         a {
             display: none;
@@ -58,35 +64,48 @@
         align-items: center;
         margin-bottom: 100px;
         gap: 16px;
-
+        
         .courses__title {
             font-size: 3.2rem;
-
+            
             span {
                 font-weight: 100;
                 text-wrap: nowrap;
             }
         }
-
+        
         img {
             display: block;
             width: 25%;
+        }
+
+        #inverted {
+            transform: scaleX(-1);
         }
     }
 
     .card {
         flex-direction: row;
+        justify-content: center;
 
         img {
             width: 30%;
         }
     }
 
+    .courses__cards {
+        margin-bottom: 100px;
+    }
+
     .flex-container__courses {
+        width: fit-content;
         display: flex;
         flex-direction: column;
         gap: 16px;
         text-align: left;
+        flex-basis: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
 
         .courses__text-align-center {
             text-align: left;
@@ -99,8 +118,48 @@
         }
     }
 
-    #inverted {
-        transform: scaleX(-1);
+    
+    .testimonials {
+        h2 {
+            display: flex;
+            flex-direction: column;
+            font-size: 3.4rem;
+        }
+        
+        span {
+            font-weight: 100;
+            font-size: 3.0rem;
+            margin-bottom: 25px;
+            text-wrap: nowrap;
+        }
     }
 
+    .testimonials__rating {
+        position: relative;
+
+        &::after,
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 1rem;
+            width: 9rem;
+            pointer-events: none;
+
+        }
+
+        &::before {
+            left: 0;
+            background-image: linear-gradient(to right, #0B090D 2rem, #0000);
+        }
+        
+        &::after {
+            right: 0;
+            background-image: linear-gradient(to left, #0B090D 2rem, #0000);
+        }
+    }
+
+    .testimonials__rating img {
+        flex: auto;
+    }
 }
