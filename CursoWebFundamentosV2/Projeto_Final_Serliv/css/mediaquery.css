@@ -1,0 +1,106 @@
+@media (width >= 64em){
+    main {
+        margin-top: 50px;
+    }
+
+
+    .header-sticky {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .logoicon {
+        text-align: center;
+
+        a {
+            display: none;
+        }
+    }
+
+    .nav-menu ul{
+        display: flex;
+        gap: 26px;
+    }
+
+    .main__title {
+        font-size: 3.6rem;
+
+        span {
+            color: #1D0738;
+            text-shadow: 2px 2px white, -2px -2px white, -2px 2px white, 2px -2px white;
+        }
+    }
+
+    .hero-banner {
+        button {
+            position: relative;
+            margin-top: 50px;
+
+            a {
+                display: block;
+                
+                img {
+                    display: block;
+                    position: absolute;
+                    top: -35px;
+                    left: -45px;
+                    width: 30%;
+                }
+            }
+        }
+    }
+
+    .stars {
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+        gap: 16px;
+
+        .courses__title {
+            font-size: 3.2rem;
+
+            span {
+                font-weight: 100;
+                text-wrap: nowrap;
+            }
+        }
+
+        img {
+            display: block;
+            width: 25%;
+        }
+    }
+
+    .card {
+        flex-direction: row;
+
+        img {
+            width: 30%;
+        }
+    }
+
+    .flex-container__courses {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        text-align: left;
+
+        .courses__text-align-center {
+            text-align: left;
+        }
+
+        .card__buttons {
+            flex-direction: row;
+            justify-items: end;
+            margin: auto 0 0 auto;
+        }
+    }
+
+    #inverted {
+        transform: scaleX(-1);
+    }
+
+}

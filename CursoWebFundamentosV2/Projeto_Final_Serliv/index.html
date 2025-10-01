@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
     <script src="script/main.js" defer></script>
     <title>Serliv</title>
 </head>
 <body class="no-js">
-    <div class="header-stick">
+    <div class="header-sticky">
         <div class="logoicon">
             <div class="logoicon__logo"><img src="assets/logo-serliv.svg" alt=""></div>
     
@@ -42,50 +43,66 @@
                 <h1 class="main__title">O Melhor Lugar para iniciar sua jornada na <span>Programação front-end</span></h1>
                 <button class="button-red genneric-button-red">
                     <a href="#">
-                        <img src="assets/target.png" alt="" style="display: none;">
+                        <img src="assets/target.png" alt="">
                         Conheça nossos cursos
                     </a>
                 </button>
             </section>
     
             <section class="courses" id="courses">
-                <h2 class="courses__title">Os Melhores Cursos <span>Você Encontra Aqui</span></h2>
+                <div class="stars container">
+                    <img src="assets/estrelas.png" alt="">
+                    <h2 class="courses__title">Os Melhores Cursos <span>Você Encontra Aqui</span></h2>
+                    <img src="assets/estrelas.png" alt="" id="inverted">
+                </div>
     
                  <div class="courses__cards container">
                     <div class="card">
                         <img src="assets/courses/curso-web-fundamentos.png" alt="">
-                        <div class="courses__text-align-center">
-                            <h2 class="courses__subtitle">Web Fundamentos Front-end</h2>
-                            <h3 class="courses__description">HTML + CSS + Javascript</h3>
-                        </div>
-                        <p class="courses__description-content">Crie seus sites na internet. Aqui você irá aprender DE VERDADE o HTML e CSS e terá uma base do Javascript</p>
-                        <div class="card__buttons">
-                            <button class="button-transparent-small genneric-size-small-button"><a href="#">Ver Conteúdo</a></button>
-                            <button class="button-red-small genneric-button-red genneric-size-small-button"><a href="#">Quero Comprar</a></button>
+                        <div class="flex-container__courses">
+                            <div>
+                                <div class="courses__text-align-center">
+                                    <h2 class="courses__subtitle">Web Fundamentos Front-end</h2>
+                                    <h3 class="courses__description">HTML + CSS + Javascript</h3>
+                                </div>
+                                <p class="courses__description-content">Crie seus sites na internet. Aqui você irá aprender DE VERDADE o HTML e CSS e terá uma base do Javascript</p>
+                            </div>
+                            <div class="card__buttons">
+                                <button class="button-transparent-small genneric-size-small-button"><a href="#">Ver Conteúdo</a></button>
+                                <button class="button-red-small genneric-button-red genneric-size-small-button"><a href="#">Quero Comprar</a></button>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <img src="assets/courses/curso-figma-html-css.png" alt="">
-                        <div class="courses__text-align-center">
-                            <h2 class="courses__subtitle">Do Figma ao código HTML e CSS</h2>
-                            <h3 class="courses__description">O Design de Interfaces web completo</h3>
-                        </div>
-                        <p class="courses__description-content">Construa Interfaces de usuário INCRÍVEIS com FIGMA e transforme tudo em páginas na web com HTML e CSS</p>
-                        <div class="card__buttons">
-                            <button class="button-transparent-small genneric-size-small-button"><a href="#">Ver Conteúdo</a></button>
-                            <button class="button-red-small genneric-button-red genneric-size-small-button"><a href="#">Quero Comprar</a></button>
+                        <div class="flex-container__courses">
+                            <div>
+                                <div class="courses__text-align-center">
+                                    <h2 class="courses__subtitle">Do Figma ao código HTML e CSS</h2>
+                                    <h3 class="courses__description">O Design de Interfaces web completo</h3>
+                                </div>
+                                <p class="courses__description-content">Construa Interfaces de usuário INCRÍVEIS com FIGMA e transforme tudo em páginas na web com HTML e CSS</p>
+                            </div>
+                            <div class="card__buttons">
+                                <button class="button-transparent-small genneric-size-small-button"><a href="#">Ver Conteúdo</a></button>
+                                <button class="button-red-small genneric-button-red genneric-size-small-button"><a href="#">Quero Comprar</a></button>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <img src="assets/courses/curso-logica-javascript.png" alt="">
-                        <div class="courses__text-align-center">
-                            <h2 class="courses__subtitle">Lógica de Programação com Javascript</h2>
-                            <h3 class="courses__description">com Fundamentos de Estrutura de Dados</h3>
-                        </div>
-                        <p class="courses__description-content">Aprenda Lógica de Programação e desenvolva suas habilidades de programação com Javascript</p>
-                        <div class="card__buttons">
-                            <button class="button-transparent-small genneric-size-small-button"><a href="#">Ver Conteúdo</a></button>
-                            <button class="button-red-small genneric-button-red genneric-size-small-button"><a href="#">Quero Comprar</a></button>
+                        <div class="flex-container__courses">
+                            <div>
+                                <div class="courses__text-align-center">
+                                    <h2 class="courses__subtitle">Lógica de Programação com Javascript</h2>
+                                    <h3 class="courses__description">com Fundamentos de Estrutura de Dados</h3>
+                            </div>
+                            <p class="courses__description-content">Aprenda Lógica de Programação e desenvolva suas habilidades de programação com Javascript</p>
+                            </div>
+                            <div class="card__buttons">
+                                <button class="button-transparent-small genneric-size-small-button"><a href="#">Ver Conteúdo</a></button>
+                                <button class="button-red-small genneric-button-red genneric-size-small-button"><a href="#">Quero Comprar</a></button>
+                            </div>
                         </div>
                     </div>
                  </div>

@@ -153,8 +153,31 @@ section {
     margin: 16px 0;
 }
 
+.hero-banner {
+    button {
+        a {
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+.stars {
+    img {
+        display: none;
+    }
+}
+
 .courses {
     margin: 56px 0;
+}
+
+.flex-container__courses {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
 }
 
 .courses__cards {
