@@ -162,4 +162,29 @@
     .testimonials__rating img {
         flex: auto;
     }
+
+    .ebooks__card:nth-child(odd) {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 16px;
+        text-align: right;
+
+        .ebooks__buttons {
+            justify-content: right;
+        }
+    }
+
+    .ebooks__card {
+        display: flex;
+        gap: 16px;
+        text-align: left;
+
+        .ebooks__buttons {
+            justify-content: left;
+        }
+    }
+
+    .ebooks__buttons {
+        flex-direction: row;
+    }
 }
