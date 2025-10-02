@@ -140,27 +140,13 @@ section {
 }
 
 .animation {
+    width: 50vw;
+    margin: 0 auto;
     a {
         img {
             display: none;
         }
     }
-}
-
-/* .genneric-size-small-button a{
-    border-radius: 26px;
-    padding: 16px;
-} */
-
-.genneric-button-red a{
-    background-color: rgb(248, 65, 65);
-    border: none;
-}
-
-.genneric-button-red a {
-    color: white;
-    text-decoration: none;
-    padding: 16px 46px;
 }
 
 .button-red-small {
@@ -177,8 +163,22 @@ section {
     text-decoration: none;
 }
 
+.button-red {
+    border: none;
+    border-radius: 26px;
+    background-color: red;
+}
+
 .button-red a{
     border-radius: 26px;
+    display: block;
+    color: white;
+    padding: 5px 36px;
+    text-decoration: none;
+}
+
+.button-red-small-padding {
+    padding: 0 36px;
 }
 
 .hero-banner a {
@@ -202,7 +202,7 @@ section {
 }
 
 .courses {
-    margin: 56px 0;
+    margin: 150px 0;
 }
 
 .flex-container__courses {

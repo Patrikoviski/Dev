@@ -1,17 +1,14 @@
+const body = document.querySelector("body")
 const hamburguerMenu = document.querySelector("#hamburguer-menu")
 const navMenu = document.querySelector(".ul")
 
+body.classList.remove("no-js")
 navMenu.classList.remove("closedMenu")
 navMenu.classList.add("openedMenu")
 
 function toggleNavMenu(){
     navMenu.classList.toggle("closedMenu")
     navMenu.classList.toggle("openedMenu")
-    // if(navMenu.classList.contains('closedMenu')){
-    //     openNavMenu()
-    // } else {
-    //     closeNavMenu()
-    // }
 }
 
 // menu aberto
