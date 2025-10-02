@@ -37,26 +37,33 @@
         span {
             color: #1D0738;
             text-shadow: 2px 2px white, -2px -2px white, -2px 2px white, 2px -2px white;
+            text-wrap: nowrap;
         }
     }
 
     .hero-banner {
-        button {
-            position: relative;
-            margin-top: 50px;
-
+        .animation {
+            display: flex;
+            justify-content: center;
+            width: 50vw;
+            margin: 0 auto;
+            animation: scale 2.2s linear infinite;
+            
             a {
-                display: block;
+                position: relative;
                 
                 img {
                     display: block;
                     position: absolute;
-                    top: -35px;
-                    left: -45px;
+                    top: -40px;
+                    left: -40px;
                     width: 30%;
                 }
             }
+
         }
+
+
     }
 
     .stars {
@@ -98,7 +105,7 @@
     }
 
     .flex-container__courses {
-        width: fit-content;
+        max-width: fit-content;
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -163,6 +170,10 @@
         flex: auto;
     }
 
+    .ebooks {
+        margin-bottom: 100px;
+    }
+
     .ebooks__card:nth-child(odd) {
         display: flex;
         flex-direction: row-reverse;
@@ -186,5 +197,51 @@
 
     .ebooks__buttons {
         flex-direction: row;
+    }
+
+    .channels {
+        background: url(../assets/bg-news-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 36px;
+    }
+
+    .channels__content {
+        margin-bottom: 100px;
+    }
+
+    .channels__links {
+        gap: 36px;
+    }
+    
+    .channels__links-arrow {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .channels__links-icons {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+
+        .channels__icons {
+            display: flex;
+            gap: 36px;
+        }
+    }
+
+    @keyframes scale {
+                from {
+                    transform: scale(1);
+                }
+
+                50% {
+                    transform: scale(1.2);
+                }
+
+                to {
+                    transform: scale(1);
+                }
     }
 }

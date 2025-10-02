@@ -128,6 +128,9 @@ section {
 }
 
 .hero-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
     text-align: center;
 }
 
@@ -136,12 +139,20 @@ section {
     font-weight: bold;
 }
 
-.genneric-size-small-button {
-    border-radius: 26px;
-    padding: 16px;
+.animation {
+    a {
+        img {
+            display: none;
+        }
+    }
 }
 
-.genneric-button-red {
+/* .genneric-size-small-button a{
+    border-radius: 26px;
+    padding: 16px;
+} */
+
+.genneric-button-red a{
     background-color: rgb(248, 65, 65);
     border: none;
 }
@@ -149,14 +160,28 @@ section {
 .genneric-button-red a {
     color: white;
     text-decoration: none;
-}
-
-.button-red {
-    border-radius: 26px;
     padding: 16px 46px;
 }
 
-.hero-banner button {
+.button-red-small {
+    border: none;
+    border-radius: 23px;
+    background-color: red;
+}
+
+.button-red-small a {
+    display: block;
+    color: white;
+    border-radius: 23px;
+    padding: 16px 26px;
+    text-decoration: none;
+}
+
+.button-red a{
+    border-radius: 26px;
+}
+
+.hero-banner a {
     margin: 16px 0;
 }
 
@@ -234,11 +259,16 @@ section {
 
 .button-transparent-small {
     background-color: transparent;
+    border-radius: 23px;
+    /* padding: 16px; */
     border: 1px solid red;
 }
 
 .button-transparent-small a {
+    display: block;
     color: red;
+    padding: 16px;
+    border-radius: 23px;
     font-weight: 700;
     text-decoration: none;
 }
@@ -292,7 +322,7 @@ section {
 
 .ebooks__price {
     font-size: 4.0rem;
-    padding: 16px;
+    padding: 16px 0;
 }
 
 .ebooks__description-content {
@@ -336,6 +366,10 @@ section {
     text-align: center;
     padding: 26px;
     font-size: 2.0rem;
+}
+
+.channels__links-arrow {
+    display: none;
 }
 
 .channels__links {
