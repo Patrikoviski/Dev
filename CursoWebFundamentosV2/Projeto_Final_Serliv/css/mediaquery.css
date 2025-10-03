@@ -171,6 +171,27 @@
 
     .ebooks {
         margin-bottom: 100px;
+
+        .ebooks__title {
+            font-size: 4.0rem;
+        }
+
+        .ebooks__description {
+            font-size: 3.0rem;
+        }
+
+        .ebook__title {
+            font-size: 3.2rem;
+        }
+
+        .ebook__description {
+            font-size: 2.5rem;
+            font-weight: 100;
+        }
+
+        .ebooks__description-content {
+            font-size: 1.8rem;
+        }
     }
 
     .ebooks__card:nth-child(odd) {
@@ -203,13 +224,21 @@
         background-size: cover;
         background-repeat: no-repeat;
         padding: 76px;
+        margin: 100px 0;
     }
 
     .channels__content {
         margin-bottom: 100px;
+
+        h2 {
+            font-size: 4.0rem;
+        }
     }
 
     .channels__links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         gap: 36px;
     }
     
@@ -231,13 +260,81 @@
         }
     }
 
+    .amazon {
+        .amazon__content {
+            margin-bottom: 100px;
+            h2 {
+                font-size: 4.0rem;
+            }
+
+            h3 {
+                font-size: 3.0rem;
+                font-weight: 100;
+            }
+        }
+    }
+
+    .amazon__books-card {
+        width: fit-content;
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            h2 {
+                font-size: 3.2rem;
+            }
+
+            h3, p {
+                display: block;
+                font-weight: 100;
+                padding-right: 5px;
+            }
+        }
+        
+        img {
+            width: 30%;
+        }
+    }
+
+    .button-transparent-border-none {
+        text-align: right;
+        padding-right: 22px;
+
+        a {
+            font-size: 1.6rem;
+        }
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 5px;
+        align-items: flex-start;
+        gap: 25px;
+        width: 30%;
+        text-align: left;
+
+        .contact__social {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .contact__links {
+            justify-content: space-between;
+            width: -webkit-fill-available;
+        }
+    }
+    
+
     @keyframes scale {
                 from {
                     transform: scale(1);
                 }
 
                 50% {
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
 
                 to {

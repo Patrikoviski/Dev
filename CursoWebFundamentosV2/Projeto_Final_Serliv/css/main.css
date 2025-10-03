@@ -372,7 +372,7 @@ section {
     display: none;
 }
 
-.channels__links {
+.channels__links-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -381,7 +381,7 @@ section {
 .amazon {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 .amazon__content {
@@ -393,6 +393,7 @@ section {
     flex-wrap: nowrap;
     overflow-x: scroll;
     padding-bottom: 1rem;
+    gap: 2rem;
 }
 
 .amazon__books-card {
@@ -414,6 +415,10 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+    p {
+        display: none;
+    }
 
     button {
         margin-top: auto;
@@ -449,5 +454,5 @@ main {
 
 .contact__links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
