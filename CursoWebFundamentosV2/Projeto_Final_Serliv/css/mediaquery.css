@@ -104,7 +104,6 @@
     }
 
     .flex-container__courses {
-        max-width: fit-content;
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -325,5 +324,66 @@
             justify-content: space-between;
             width: -webkit-fill-available;
         }
+    }
+}
+
+@media (width >= 90em){
+    :root {
+        --grid-margin: 6.4rem;
+        --h1-size: 6.4rem;
+        --h2-size: 4.0rem;
+        --h3-size: 3.2rem;
+
+        --section-distance-top: 14.4rem;
+        --subsection-distance-gap: 12.4rem;
+    }
+
+    .header-sticky {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: var(--section-distance-top);
+    }
+
+    .hero-banner {
+        width: 63%;
+        margin: 0 auto;
+    }
+
+    .courses__cards {
+        display: grid;
+        align-items: stretch;
+        grid-template-columns: repeat(12, 1fr);
+        .card {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-column: 2 / -2;
+            img {
+                width: 100%;
+                grid-column: 2 / 6;
+            }
+            .flex-container__courses {
+                grid-column: 6 / -2;
+            }
+        }
+    }
+
+    .stars {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: var(--subsection-distance-gap);
+    }
+
+    .testimonials {
+        margin-bottom: var(--section-distance-top);
+    }
+
+    .ebooks__description {
+        margin-bottom: var(--subsection-distance-gap);
+    }
+
+    .ebooks__cards {
+        width: 80%;
+        margin: 0 auto;
     }
 }
