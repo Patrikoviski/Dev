@@ -137,6 +137,7 @@
             margin-bottom: 25px;
             text-wrap: nowrap;
         }
+        overflow: hidden;
     }
 
     .testimonials__rating {
