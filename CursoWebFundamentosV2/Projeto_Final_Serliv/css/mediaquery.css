@@ -437,6 +437,12 @@
         }
     }
 
+    .js {
+        *::-webkit-scrollbar {
+            height: 0;
+        }
+    }
+
     .js-enabled.testimonials__rating--wrapper {
         --w: 42.0rem;
         overflow: hidden;
