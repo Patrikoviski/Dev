@@ -150,6 +150,7 @@
             bottom: 1rem;
             width: 9rem;
             pointer-events: none;
+            z-index: 2;
 
         }
 
