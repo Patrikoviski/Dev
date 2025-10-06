@@ -12,6 +12,8 @@ function setupTestimonials(config){
     if(!window.matchMedia("(width >= 90em)").matches){
         return
     }
+    wrapper.classList.add("js-enabled")
+    wrapper.style.setProperty("--quantity", items.length)
 
     items.forEach(item => {
         const clone = item.cloneNode(true)

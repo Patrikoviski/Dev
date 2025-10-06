@@ -435,9 +435,16 @@
         }
     }
 
-    .js {
-        *::-webkit-scrollbar {
-            height: 0;
+    .js-enabled.testimonials__rating--wrapper {
+        --w: 42.0rem;
+        overflow: hidden;
+        animation: scrollLoop 20s linear infinite;
+        width: max-content;
+
+        img {
+            margin-left: 1.6rem;
+            width: var(--w);
+            flex-shrink: 0;
         }
     }
 }
