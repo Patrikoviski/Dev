@@ -3,6 +3,7 @@ const hamburguerMenu = document.querySelector("#hamburguer-menu")
 const navMenu = document.querySelector(".ul")
 
 body.classList.remove("no-js")
+body.classList.add("js")
 navMenu.classList.remove("closedMenu")
 navMenu.classList.add("openedMenu")
 
