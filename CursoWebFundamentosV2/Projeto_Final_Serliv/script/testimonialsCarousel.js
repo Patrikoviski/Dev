@@ -4,10 +4,19 @@ function setupTestimonials(config){
         return
     }
 
-    const items = wrapper.querySelector(config.items)
-    if(!items){
+    const items = wrapper.querySelectorAll(config.items)
+    if(items.length == 0){
         return
     }
+
+    if(!window.matchMedia("(width >= 90em)").matches){
+        return
+    }
+
+    items.forEach(item => {
+        const clone = item.cloneNode(true)
+        wrapper.appendChild(clone)
+    })
 }
 
 setupTestimonials({ wrapper: ".testimonials__rating--wrapper", items: "img"})
