@@ -338,6 +338,12 @@
         --subsection-distance-gap: 12.4rem;
     }
 
+    main {
+        *::-webkit-scrollbar {
+            height: .8rem;
+        }
+    }
+
     .header-sticky {
         flex-direction: row;
         align-items: baseline;
@@ -386,4 +392,26 @@
         width: 80%;
         margin: 0 auto;
     }
+
+    .amazon {
+        button {
+            text-align: center;
+        }
+    }
+
+    .amazon__books-card {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
+        img {
+            width: 100%;
+            grid-column: 2 / 4;
+        }
+
+        .books-card__content {
+            grid-column: 4 / -2;
+        }
+    }
+
+    
 }
