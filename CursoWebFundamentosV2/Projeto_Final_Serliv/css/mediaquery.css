@@ -413,5 +413,10 @@
         }
     }
 
-    
+    .contact {
+        .contact__links {
+            justify-content: left;
+            gap: 1.6rem;
+        }
+    }
 }
