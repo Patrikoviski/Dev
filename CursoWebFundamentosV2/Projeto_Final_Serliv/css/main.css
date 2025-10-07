@@ -382,6 +382,10 @@ section {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+
+    .arrow-carousel {
+        display: none;
+    }
 }
 
 .amazon__content {

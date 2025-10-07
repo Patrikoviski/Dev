@@ -398,19 +398,37 @@
         button {
             text-align: center;
         }
-    }
 
+        .arrow-carousel {
+            display: block;
+            width: 50%;
+        }
+
+    }
+    
     .amazon__books-card {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-
+        
         img {
             width: 100%;
             grid-column: 2 / 4;
         }
-
+        
         .books-card__content {
             grid-column: 4 / -2;
+        }
+
+        .left-arrow {
+            display: flex;
+            grid-column: 1 / 2;
+            margin: auto;
+        }
+
+        .right-arrow {
+            transform: scaleX(-1);
+            grid-column: -2 / -1;
+            margin: auto;
         }
     }
 
