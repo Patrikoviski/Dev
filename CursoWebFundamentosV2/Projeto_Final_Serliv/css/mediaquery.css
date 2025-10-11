@@ -472,5 +472,9 @@
             width: var(--w);
             flex-shrink: 0;
         }
+
+        &:hover {
+            animation-play-state: paused;
+        }
     }
 }
