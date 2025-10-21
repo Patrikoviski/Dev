@@ -1,5 +1,5 @@
 const inverterString = (str) => str.split('').reverse().join('')
-const str = "abacaxi"
+const str = "arara"
 const invertido = inverterString(str)
 
 const palidromo = str === invertido ? "Palindromo" : "Nao é Palindromo"
