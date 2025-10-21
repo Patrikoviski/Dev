@@ -3,5 +3,3 @@ const livro = {
     autor: "autor",
     paginas: "paginas"
 }
-
-console.log(livro.autor)
