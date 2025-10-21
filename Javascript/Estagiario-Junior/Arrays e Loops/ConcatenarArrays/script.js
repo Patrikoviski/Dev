@@ -7,4 +7,4 @@ function concatenar(array1, array2){
     return novoArray.toString()
 }
 
-console.log(concatenar(numbers1, numbers2))
+console.log(concatenar(numbers1, numbers2)
