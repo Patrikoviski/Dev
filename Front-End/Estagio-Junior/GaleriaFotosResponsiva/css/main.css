@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.galeria {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
