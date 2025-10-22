@@ -1,0 +1,10 @@
+{
+  // Enable word wrap for this workspace
+  "editor.wordWrap": "on",
+  // Wrap at 120 columns when using wordWrapColumn
+  "editor.wordWrapColumn": 120,
+  // Keep indentation when wrapping lines
+  "editor.wrappingIndent": "same",
+  // Optional: show a ruler at the wrap column
+  "editor.rulers": [120]
+}
