@@ -1,0 +1,46 @@
+body {
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.formulario {
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 56px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        padding: 5px;
+    }
+
+    .enviar {
+        width: 15%;
+        padding: 5px;
+
+        text-transform: uppercase;
+
+        color: white;
+        background-color: darkgoldenrod;
+        border: 1px solid black;
+
+        transition: all .2s;
+    }
+
+    .enviar:hover {
+        color: black;
+        background-color: beige;
+        cursor: pointer;
+    }
+}
