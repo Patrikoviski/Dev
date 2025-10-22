@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.genneric {
+    border: 1px solid black;
+    background-color: deepskyblue;
+    border-radius: 5px;
+    padding: 6px 36px;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+
+.genneric:hover {
+    color: rgb(37, 35, 35);
+    background-color: rgb(80, 211, 255);
+}

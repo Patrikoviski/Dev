@@ -9,6 +9,9 @@ body {
 }
 
 .sidebar {
+    position: sticky;
+    left: 0;
+    z-index: 1;
     width: 25%;
     padding-left: 16px;
     background-color: rgb(206, 253, 253);
