@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background-color: black;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    filter: drop-shadow(1px 1px 5px white);
+    background-color: brown;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black inset;
+
+    padding: 16px;
+
+    legend {
+        text-align: center;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fa-solid {
+        cursor: pointer;
+    }
+}
+
+#email, #pass {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black inset;
+}
