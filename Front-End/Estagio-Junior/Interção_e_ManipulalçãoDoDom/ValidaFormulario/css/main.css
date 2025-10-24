@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background-color: black;
+}
+
+.formulario {
+    color: white;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 36px;
+
+    box-shadow: 1px 1px 5px black inset;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        
+        input {
+            filter: drop-shadow(1px 1px 5px black);
+            box-shadow: 1px 1px 5px black inset;
+        }
+    }
+
+    input {
+        box-shadow: 1px 1px 5px black;
+        border: none;
+        border-radius: 5px;
+        padding: 16px;
+    }
+
+    #enviar {
+        background-color: aqua;
+        border: 1px solid black;
+        border-radius: 5px;
+
+        padding: 10px 5px;
+
+        width: 30%;
+        align-self: end;
+
+        transition: all .1s;
+        text-transform: uppercase;
+    }
+
+    #enviar:hover {
+        color: white;
+        background-color: rgb(2, 183, 255);
+        cursor: pointer;
+    }
+}
