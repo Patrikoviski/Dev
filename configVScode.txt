@@ -1,0 +1,7 @@
+-> Duplicar linha: alt + shitf + seta cima ou seta baixo
+-> Mover linha: alt + seta cima ou seta baixo
+-> Apagar linha: ctrl + shift + K
+-> Multi seleção de ocorrencia: ctrl + D
+-> Multi Cursor: alt + D
+-> tela cheia: ctrl + K Z. para sair: esq x2
+-> sugestao de preenchimento: ctrl + espaço
