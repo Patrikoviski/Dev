@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    background-color: black;
+}
+
+.calc {
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 1px 1px 5px black inset;
+    filter: drop-shadow(1px 1px 5px white);
+
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    input {
+        border-radius: 5px;
+        padding: 16px;
+        margin-bottom: 10px;
+        box-shadow: 1px 1px 5px black inset;
+    }
+
+    h1, p {
+        color: white;
+        text-shadow: 1px 1px 5px black;
+    }
+
+    .buttons {
+        button {
+            cursor: pointer;
+            box-shadow: 1px 1px 5px black;
+        }
+    }
+}
+
+#result {
+    margin-left: 5px;
+}
