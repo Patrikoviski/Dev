@@ -1,21 +1,52 @@
-const body = document.querySelector("body")
-const leftButton = document.querySelector(".fa-arrow-left")
-const rightButton = document.querySelector(".fa-arrow-right")
-const carousel = document.querySelector(".imagens")
+function Carousel(config){
+    this.container = ( typeof config.container === 'string') ? document.querySelector(config.container) : config.container
+    
+    this.itens = (typeof config.itens === 'string') ? this.container.querySelectorAll(config.itens) : config.itens
+    
+    this.btnPrev = (typeof config.btnPrev === 'string') ? this.container.querySelector(config.btnPrev) : config.btnPrev
+    
+    this.btnNext = (typeof config.btnNext === 'string') ? this.container.querySelector(config.btnNext) : config.btnNext
+    
+    var _this = this;
+    var _currentSlide = 0
 
-console.log(carousel)
-
-
-body.classList.replace("no-js", "js")
-
-carousel.addEventListener("click", (e) => {
-    console.log(e.target)
-})
-
-leftButton.addEventListener("click", () => {
-    console.log("abacaxi")
-})
-
-rightButton.addEventListener("click", () => {
-    console.log("Kamily")
-})
+    console.log("abacaxi main")   
+    
+    init()
+    
+    function init(){
+        var _show = _this.container.querySelectorAll('.show')
+        
+        Array.prototype.forEach.call(_show, function(sh){
+            sh.classList.remove('show')
+        })
+        _this.itens[0].classList.add('show')
+        
+        addListeners()     
+    }
+    
+    function addListeners(){
+        _this.btnNext.addEventListener('click', showNextSlide)
+        _this.btnPrev.addEventListener('click', showPrevSlide)
+    }
+    
+    function showNextSlide(){
+        _currentSlide++;
+        showSlide()
+    }
+    
+    function showPrevSlide(){
+        _currentSlide--;
+        showSlide()
+    }
+    
+    function showSlide(){
+        var qtd = _this.itens.length;
+        var slide = _currentSlide % qtd;
+        slide = Math.abs(slide);
+        
+        _this.container.querySelector('.show').classList.remove('show');
+        _this.itens[slide].classList.add('show')
+        
+    }
+}
