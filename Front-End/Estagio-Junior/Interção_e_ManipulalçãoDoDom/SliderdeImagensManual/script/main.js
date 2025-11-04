@@ -10,7 +10,7 @@ function Carousel(config){
     var _this = this;
     var _currentSlide = 0
 
-    console.log("abacaxi main")   
+    console.log(this.btnNext)   
     
     init()
     

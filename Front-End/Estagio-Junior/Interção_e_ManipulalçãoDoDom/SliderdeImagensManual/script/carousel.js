@@ -1,11 +1,11 @@
 (function(){
-  document.querySelector(".no-js").remove
+  document.body.classList.remove("no-js")
   document.body.classList = "js"
 
   console.log("abacaxi")
 
   var carouselImgs = new Carousel({
-    container: '.container .imagens',
+    container: '.container',
     itens: 'img',
     btnPrev: '.fa-arrow-left',
     btnNext: '.fa-arrow-right'

@@ -31,12 +31,12 @@ body {
     }
 }
 
-.show {
-    display: block;
+.container .imagens img {
+    display: none;
 }
 
-.hidden {
-    display: none;
+.container .imagens img.show {
+    display: block;
 }
 
 .fa-solid {
