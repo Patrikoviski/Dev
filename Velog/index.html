@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="undefined">
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="/favicon.png">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <link rel="manifest" href="/manifest.json">
+        <title>Velog 4</title>
+        <meta name="description" content="Velog é um portal de agendamento de carga e descarga desenvolvido pela Vertti Tencologia da Informação">
+        <meta name="keywords" content="Velog, Agendamento, carga, descarga, Vertti">
+        <meta name="author" content="Vertti Tecnologia da Informação">
+        <script async="" src="https://www.clarity.ms/tag/upkyibgaxx"></script>
+        <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PK8M8ML"></script>
+        <script>!function(e,t,a,n){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(a)[0],m=t.createElement(a);m.async=!0,m.src="https://www.googletagmanager.com/gtm.js?id=GTM-PK8M8ML",g.parentNode.insertBefore(m,g)}(window,document,"script","dataLayer")</script>
+        <script type="text/javascript">!function(t,e,n,a,c,i,r){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},(i=e.createElement(a)).async=1,i.src="https://www.clarity.ms/tag/upkyibgaxx",(r=e.getElementsByTagName(a)[0]).parentNode.insertBefore(i,r)}(window,document,"clarity","script")</script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+        <script defer="defer" src="js/main.1db0a3b2.js"></script>
+        <link href="css/main.35435ea6.css" rel="stylesheet">
+    </head>
+    
+    <body style="font-family:Roboto,sans-serif">
+        <noscript>Você precisa habilitar JavaScript para executar esse aplicativo.</noscript>
+        <div id="root">
+            <div id="layout" class="">
+                <div id="sidebar" class="g2 f1 null">
+                    <ul class="menu ">
+                        <li class="active">
+                            <span>
+                                <span>
+                                    <span class="menu-icon">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                        <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99l1.5 1.5z"></path>
+                                    </svg>
+                                </span>
+                                <span class="menu-name">Monitor de Fluxo</span>
+                            </span>
+                            <button class="iconButton  " style="max-width: 36px; max-height: 36px; font-size: 18px;">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M17.65 6.35A7.958 7.958 0 0012 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0112 18c-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"></path>
+                                </svg>
+                            </button>
+                        </span>
+                        <ul class="submenu"></ul>
+                    </li>
+                </ul>
+                <div id="version" class="center f f-column g1">
+                    <img src="/static/media/velog-icon.0054c167e8e5d9179c55.png" alt="Version" width="24">
+                    <span class="version-number">Version 4.67.2.152</span>
+                </div>
+            </div>
+                <div id="main">
+                    <div class="frame f f-column ">
+                        <div class="frame-titleBar">
+                            <h3><span>Fila 3 - SOJA EM GRAOS</span></h3>
+                        </div>
+                        <div class="frame-content" style="overflow-x: inherit; gap: 1rem;">
+                            
+                            <div class="react-tabs f g2" style="margin-top: 15px; display: flex; flex-direction: row; justify-content: space-around;">
+                                <ul class="react-tabs__tab-list f g2 fila">
+                                    <li class="react-tabs__tab f g1 center-v ">Fila</li>
+                                    <li class="react-tabs__tab f g1 center-v ">Agendado<span class="destaque info">0</span></li>
+                                    <li class="react-tabs__tab f g1 center-v react-tabs__tab--selected">Em Transito<span class="destaque info">24</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Recusado<span class="destaque info">0</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Recepcionado<span class="destaque info">0</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Checklist Pátio<span class="destaque info">0</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Checklist Aprovado<span class="destaque info">5</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Classificação<span class="destaque info">0</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Negociação Comercial<span class="destaque info">7</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Classificação Aprovada<span class="destaque info">1</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Pesagem Entrada<span class="destaque info">0</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Descarga Seca<span class="destaque info">1</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Descarga Úmida<span class="destaque info">0</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Pesagem Saida<span class="destaque info">1</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Finalizado<span class="destaque info">50</span></li>
+                                    <li class="react-tabs__tab f g1 center-v ">Refugado<span class="destaque info">0</span></li>
+                                </ul>
+                                <img src="assets/logo-potencial-agro.png" alt="" style="width: 25%;">
+                            </div>
+                            <div class="filters f f-wrap g1 center-v w100 pesquisar">
+                                <label class="text-group f5  icon  ">
+                                    <input placeholder="Placa do veículo" type="text" value="">
+                                </label>
+                                <div class="buttons">
+                                <button disabled="" class="f1" type="button">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                                     Pesquisar
+                                </button>
+                            </div>
+                            <div class="table-default f f-column g2 w100">
+                                <div style="overflow-x: auto; width: 100%;">
+                                    <table cellspacing="0" style="font-size: 12px;min-width: 100%;table-layout: auto;">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="1" class="relative p-2 sortable " title="Local" style="width: auto; min-width: 50px;">
+                                                    <div style="cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                                                        <span>Placa</span>
+                                                        <span>Agendamento</span>
+                                                        <span>Contrato</span>
+                                                    </div>
+                                                </th>
+                                                <th colspan="1" class="relative p-2 sortable " title="Contrato" style="width: auto; min-width: 50px;">
+                                                    <div style="cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                                                        <span>Nome</span>
+                                                        <span>CPF</span>
+                                                    </div>
+                                                </th>
+                                                <th colspan="1" class="relative p-2 sortable " title="Ticket" style="width: auto; min-width: 50px;">
+                                                    <div style="cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                                                        <span>Data Agendamento</span>
+                                                        <span>Janela</span>
+                                                        <span>Tempo Staus</span>
+                                                    </div>
+                                                </th>
+                                                <th colspan="1" class="relative p-2 sortable " title="Data" style="width: auto; min-width: 50px;">
+                                                    <div style="cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                                                        <span>Destino</span>
+                                                        <span>Produto</span>
+                                                        <span>Pedido de Compras</span>
+                                                        <span>Pedido</span>
+                                                    </div>
+                                                </th>
+                                                <th colspan="1" class="relative p-2 sortable " title="Entrada fluxo" style="width: auto; min-width: 50px;">
+                                                    <div style="cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                                                        <span>Fornecedor</span>
+                                                        <span>Transportadora</span>
+                                                        <span>Tipo Veículo</span>
+                                                    </div>
+                                                </th>
+                                                <th colspan="1" class="relative p-2 sortable " title="NFe" style="width: auto; min-width: 50px;">
+                                                    <div style="cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                                                        <span>Nota Fiscal</span>
+                                                        <span>CTE</span>
+                                                        <span>Volume Agend</span>
+                                                        <span>Volume NFe</span>
+                                                    </div>
+                                                </th>
+                                                <th colspan="1" class="relative p-2 sortable " title="Op." style="width: auto; min-width: 50px;">
+                                                    <div style="cursor: pointer; display: flex; align-items: center; gap: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">Op.</div>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr style="cursor: default;">
+                                                <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
+                                                    <div class="veiculo" title="AOD7G21" style="text-align: left; text-transform: none;" >
+                                                        <div class="placa" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; overflow-wrap: normal;">AOD7G21</div>
+                                                        <div class="agendamento">50024017</div>
+                                                    </div>
+                                                </td>
+                                                <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
+                                                    <div title="ANSELMO SZNICER" style="text-align: left; text-transform: capitalize;" class="Motorista">
+                                                        <div class="nome" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; overflow-wrap: normal;" >ANSELMO SZNICER</div>
+                                                        <div class="CPF">062.047.219-76</div>
+                                                    </div>
+                                                </td>
+                                                <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
+                                                    <div title="26/04/2026" style="text-align: left; text-transform: none;">
+                                                        <div class="data-agendamento" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; overflow-wrap: normal;">26/04/2026</div>
+                                                        <div class="janela">16:00 AS 17:00</div>
+                                                    </div>
+                                                </td>
+                                                <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
+                                                    <div title="POTENCIAL - ESMAGADORA" style="text-align: left; text-transform: capitalize;">
+                                                        <div class="destino" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; overflow-wrap: normal;">POTENCIAL - ESMAGADORA</div>
+                                                        <div class="produto">Soja em Grãos</div>
+                                                        <div class="contrato">2865</div>
+                                                        <div class="contrato">2865</div>
+                                                    </div>
+                                                </td>
+                                                <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
+                                                    <div title="TONI CEREALISTA LTDA" style="text-align: left; text-transform: capitalize;">
+                                                        <div class="cliente" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; overflow-wrap: normal;">TONI CEREALISTA LTDA</div>
+                                                        <div class="transportadora">RODOFROTA TRANSPORTES</div>
+                                                        <div class="tipo-veiculo">GRANELEIRO</div>
+                                                    </div>
+                                                </td>
+                                                <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
+                                                    <div style="text-align: left; text-transform: none;">
+                                                        <div class="nota-fiscal" style="overflow: hidden;">181893</div>
+                                                        <div class="CTE">181893</div>
+                                                        <div class="volume-agendado">39.710,000</div>
+                                                        <div class="volume-NFe">--</div>
+                                                    </div>
+                                                </td>
+                                                <td style="width: auto; min-width: 50px;padding: 4px;height: 36px;">
+                                                    <div style="text-align: center; text-transform: none;">
+                                                        <div style="overflow: hidden;">
+                                                            <div class="dropdown-menu">
+                                                                <div class="dropdown-menu-clicker f center-h" style="background-color: rgb(1, 207, 1); color: white; width: fit-content;">
+                                                                    <button class="optionButton">OPÇÕES</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>    
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>  
+            </div>                                          
+    </body>
+</html>
+<!-- <html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="/favicon.png"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+    <meta name="theme-color" content="#000000"/>
+    <link rel="manifest" href="/manifest.json"/>
+    <title>Velog 4</title>
+    <meta name="description" content="Velog é um portal de agendamento de carga e descarga desenvolvido pela Vertti Tencologia da Informação">
+    <meta name="keywords" content="Velog, Agendamento, carga, descarga, Vertti">
+    <meta name="author" content="Vertti Tecnologia da Informação">
+    <script>!function(e,t,a,n){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(a)[0],m=t.createElement(a);m.async=!0,m.src="https://www.googletagmanager.com/gtm.js?id=GTM-PK8M8ML",g.parentNode.insertBefore(m,g)}(window,document,"script","dataLayer")</script>
+    <script type="text/javascript">!function(t,e,n,a,c,i,r){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},(i=e.createElement(a)).async=1,i.src="https://www.clarity.ms/tag/upkyibgaxx",(r=e.getElementsByTagName(a)[0]).parentNode.insertBefore(i,r)}(window,document,"clarity","script")</script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <script defer="defer" src="/static/js/main.1db0a3b2.js"></script>
+    <link href="/static/css/main.35435ea6.css" rel="stylesheet">
+</head>
+<body style="font-family:Roboto,sans-serif">
+    <noscript>Você precisa habilitar JavaScript para executar esse aplicativo.</noscript>
+    <div id="root">
+        <div class="loadingio-container">
+            <img src="/loadingio-container.gif" style="filter:hue-rotate(320deg) saturate(1) brightness(1.25);mix-blend-mode:multiply"/> 
+            <img src="/favicon.png" id="favicon"/> 
+            Carregando...
+        </div>
+        <style>
+            #favicon{
+                margin:-190px 0 70px 90px;
+                filter:drop-shadow(1px 1px 1px #444)
+            }
+            .loadingio-container{
+                width:100%;
+                height:100vh;
+                display:flex;
+                flex-direction:column;
+                font-size:30px;
+                color:#101820;
+                font-family:monospace!important;
+                align-items:center;
+                justify-content:center
+            }
+        </style>
+    </div>
+</body>
+</html> -->
