@@ -15,7 +15,7 @@
         <script>!function(e,t,a,n){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(a)[0],m=t.createElement(a);m.async=!0,m.src="https://www.googletagmanager.com/gtm.js?id=GTM-PK8M8ML",g.parentNode.insertBefore(m,g)}(window,document,"script","dataLayer")</script>
         <script type="text/javascript">!function(t,e,n,a,c,i,r){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},(i=e.createElement(a)).async=1,i.src="https://www.clarity.ms/tag/upkyibgaxx",(r=e.getElementsByTagName(a)[0]).parentNode.insertBefore(i,r)}(window,document,"clarity","script")</script>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
-        <script defer="defer" src="js/main.1db0a3b2.js"></script>
+        <script defer="defer" src="js/velog.js"></script>
         <link href="css/main.35435ea6.css" rel="stylesheet">
     </head>
     
@@ -23,7 +23,8 @@
         <noscript>Você precisa habilitar JavaScript para executar esse aplicativo.</noscript>
         <div id="root">
             <div id="layout" class="">
-                <div id="sidebar" class="g2 f1 null">
+                <div id="toolbar" class="f f-between" style="position: relative;"><button class="iconButton  " id="toggleMenu" style="max-width: 36px; max-height: 36px; font-size: 18px;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M3 18h13v-2H3v2zm0-5h10v-2H3v2zm0-7v2h13V6H3zm18 9.59L17.42 12 21 8.41 19.59 7l-5 5 5 5L21 15.59z"></path></svg> </button><img src="/Velog/assets/velog-hub-w.6998b249723bc47d1d50.png" class="logoVelog" alt="logoVelog" height="30px"><div id="toolbar_infos" class="f g2 center-v"><div class="dropdown-menu" title="Selecionar idioma" id="toggleLang"><div class="dropdown-menu-clicker f center-h"><button class="iconButton  " style="max-width: 36px; max-height: 36px; font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513 342" class="flagIcon"><path fill="#009b3a" d="M0 0h513v342H0z"></path><path fill="#fedf00" d="m256.5 19.3 204.9 151.4L256.5 322 50.6 170.7z"></path><circle fill="#FFF" cx="256.5" cy="171" r="80.4"></circle><path fill="#002776" d="M215.9 165.7c-13.9 0-27.4 2.1-40.1 6 .6 43.9 36.3 79.3 80.3 79.3 27.2 0 51.3-13.6 65.8-34.3-24.9-31-63.2-51-106-51zm119 20.3c.9-5 1.5-10.1 1.5-15.4 0-44.4-36-80.4-80.4-80.4-33.1 0-61.5 20.1-73.9 48.6 10.9-2.2 22.1-3.4 33.6-3.4 46.8.1 89 19.5 119.2 50.6z"></path></svg> </button></div></div><button class="iconButton  " id="toggleDarkmode" style="max-width: 36px; max-height: 36px; font-size: 18px;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><title>Dark mode</title><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path></svg> </button><div class="dropdown-menu notifications"><button class="iconButton  dropdown-menu-clicker" style="max-width: 36px; max-height: 36px; font-size: 18px;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"></path></svg> </button></div><div class="dropdown-menu"><div class="dropdown-menu-clicker f center-h"><span id="user_name" class="f g3"><div class="avatar s48 border"><img src="data:image/png;base64,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" width="48" height="48" alt="Avatar"></div>POTENCIAL - ESMAGADORA</span></div></div></div></div>
+                <div id="sidebar" class="g2 f1 null active">
                     <ul class="menu ">
                         <li class="active">
                             <span>
@@ -47,8 +48,8 @@
                     </li>
                 </ul>
                 <div id="version" class="center f f-column g1">
-                    <img src="/static/media/velog-icon.0054c167e8e5d9179c55.png" alt="Version" width="24">
-                    <span class="version-number">Version 4.67.2.152</span>
+                    <img src="assets/velog-icon.png" alt="Version" width="24">
+                    <span class="version-number">Version 1.0</span>
                 </div>
             </div>
                 <div id="main">
@@ -59,7 +60,7 @@
                         <div class="frame-content" style="overflow-x: inherit; gap: 1rem;">
                             
                             <div class="react-tabs f g2" style="margin-top: 15px; display: flex; flex-direction: row; justify-content: space-around;">
-                                <ul class="react-tabs__tab-list f g2 fila">
+                                <ul class="react-tabs__tab-list f g2 status">
                                     <li class="react-tabs__tab f g1 center-v ">Fila</li>
                                     <li class="react-tabs__tab f g1 center-v ">Agendado<span class="destaque info">0</span></li>
                                     <li class="react-tabs__tab f g1 center-v react-tabs__tab--selected">Em Transito<span class="destaque info">24</span></li>
@@ -91,6 +92,7 @@
                             </div>
                             <div class="table-default f f-column g2 w100">
                                 <div style="overflow-x: auto; width: 100%;">
+                                    <p>Veículos por situação</p>
                                     <table cellspacing="0" style="font-size: 12px;min-width: 100%;table-layout: auto;">
                                         <thead>
                                             <tr>
@@ -145,15 +147,15 @@
                                         <tbody>
                                             <tr style="cursor: default;">
                                                 <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
-                                                    <div class="veiculo" title="AOD7G21" style="text-align: left; text-transform: none;" >
-                                                        <div class="placa" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; overflow-wrap: normal;">AOD7G21</div>
+                                                    <div class="veiculo" title="AOD7G21" style="text-align: left; text-transform: none; gap: 5px;" >
+                                                        <a href="https://www.google.com.br" class="placa">AOD7G21</a>                                                       
                                                         <div class="agendamento">50024017</div>
                                                     </div>
                                                 </td>
                                                 <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
                                                     <div title="ANSELMO SZNICER" style="text-align: left; text-transform: capitalize;" class="Motorista">
                                                         <div class="nome" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; overflow-wrap: normal;" >ANSELMO SZNICER</div>
-                                                        <div class="CPF">062.047.219-76</div>
+                                                        <div class="CPF"><a href="https://www.youtube.com/shorts/oc-5-0vm-JQ" style="text-decoration: none; color: unset;">062.047.219-76</a></div>
                                                     </div>
                                                 </td>
                                                 <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
@@ -164,7 +166,7 @@
                                                 </td>
                                                 <td style="width: auto; min-width: 50px; padding: 4px; height: 36px;">
                                                     <div title="POTENCIAL - ESMAGADORA" style="text-align: left; text-transform: capitalize;">
-                                                        <div class="destino" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; overflow-wrap: normal;">POTENCIAL - ESMAGADORA</div>
+                                                        <div class="destino" style=" white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; overflow-wrap: normal;">POTENCIAL - ESMAGADORA</div>
                                                         <div class="produto">Soja em Grãos</div>
                                                         <div class="contrato">2865</div>
                                                         <div class="contrato">2865</div>
@@ -185,15 +187,14 @@
                                                         <div class="volume-NFe">--</div>
                                                     </div>
                                                 </td>
-                                                <td style="width: auto; min-width: 50px;padding: 4px;height: 36px;">
-                                                    <div style="text-align: center; text-transform: none;">
-                                                        <div style="overflow: hidden;">
-                                                            <div class="dropdown-menu">
-                                                                <div class="dropdown-menu-clicker f center-h" style="background-color: rgb(1, 207, 1); color: white; width: fit-content;">
-                                                                    <button class="optionButton">OPÇÕES</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                <td style="width: auto; min-width: 50px;padding: 4px;height: 36px;" style="position: relative;">
+                                                    <div class="search">
+                                                        <button class="optionButton" id="OP">OPÇÕES</button>
+                                                        <div id="OP-container" class="btn-container active">
+                                                            <a class="btn btn-success btn-sm change-status m-b-10 d-block" style="background-color: #4caf50 !important" data-id-destino="75" data-id-atual="74" data-id-linha="245571" data-cesv-linha="2026016809" data-cancel="Operacional" data-sol-justificativa="false">Recepicionar</a>
+                                                            <a class="btn btn-success btn-sm change-status m-b-10 d-block" style="background-color: #f44336 !important" data-id-destino="77" data-id-atual="74" data-id-linha="245571" data-cesv-linha="2026016809" data-cancel="Operacional" data-sol-justificativa="false">Recusado</a>
+                                                            <a class="btn btn-success btn-sm change-status m-b-10 d-block" style="background-color: rgb(189, 189, 0) !important" data-id-destino="84" data-id-atual="74" data-id-linha="245571" data-cesv-linha="2026016809" data-cancel="Cancelamento" data-sol-justificativa="false">Cancelar</a>
+                                                        </div>                                                               
                                                     </div>
                                                 </td>
                                             </tr>
